@@ -1,0 +1,160 @@
+<apex:page showHeader="false" sidebar="false" docType="html-5.0" renderAs="pdf"  controller="PaymentInvoice" >
+    <html>
+        <head>
+            <style>
+               
+            </style>
+            <script type = "text/javascript">
+            </script>
+        </head>
+        <apex:form >
+            <body>
+                <table style="width:100%;">
+                    <tr>
+                        <td>
+                            <apex:image url="{!$Resource.CodeGladiatorLogo}" width="100" height="70" />
+                        </td>
+                        <td style="width:300px;">
+                        </td>
+                        <td >
+                            <p style="text-align: right;margin-top:0%;font-size: 40px;height:2px;color:#ff8000;">
+                                <b>
+                                    INVOICE
+                                </b>
+                            </p>
+                            
+                        </td>
+                        <hr style="text-align:left;margin-left:0"/>
+                    </tr>
+                </table>   
+                <br/><br/>
+                <div class="row" style="font-family: arial, sans-serif;"> 
+                    <table style="width:100%;border-collapse: collapse;">
+                        <tr>
+                            <td>
+                                <h4 style="text-align:left;margin-top:0%;font-size: 18px;height:2px;color:#6c6760;">
+                                    <b>
+                                        Invoice To
+                                    </b>
+                                </h4> 
+                            </td>
+                            
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="text-align:left;margin-top:1%;font-size:13px;height:2px;color:#ff8000;">
+                                    <b>{!paidByRecord.Contact__r.Name}</b>
+                                </p> 
+                                <hr style="text-align:left;margin-left:0;color:#000000;" />
+                            </td>
+                            
+                            <td >
+                                <p style="text-align:left;margin-top:0.5%;font-size: 13px;height:2px;color:#ff8000;">
+                                   <b> Details</b>
+                                </p> 
+                                <hr style="text-align:left;margin-left:0;color:404040;" />
+                            </td>
+                            <td>
+                                <p style="text-align:left;margin-top:1%;font-size: 13px;height:2px;color:#404040;">
+                                    <b>Total Due</b>
+                                </p> 
+                                <hr style="text-align:left;margin-left:0" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="color:#404040;font-size: 13px;">
+                                {!paidByRecord.Contact__r.Phone}
+                            </td>
+                            
+                            <td style="color:#404040;font-size: 13px;">
+                                Trans Id : {!paidByRecord.Payment_Order__r.Transaction_Id__c}
+                            </td>
+                            <td style="color:#ff8000;">
+                               <b> INR : {!paidByRecord.Payment_Order__r.Amount__c}</b>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="color:#404040;font-size: 13px;">
+                                {!paidByRecord.Contact__r.Email}
+                            </td>
+                            <td style="color:#404040;font-size: 13px;">
+                                Order Id : {!paidByRecord.Payment_Order__r.Order_Id__c}
+                            </td>
+                            <td>
+                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            </td>
+                            <td style="color:#404040;font-size: 13px;">
+                                Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : {!paidByRecord.Payment_Order__r.Payment_Date__c}
+                            </td>
+                            <td>
+                                
+                            </td>
+                        </tr>
+                    </table>
+                    <br/><br/>
+                    
+                    <table style="width:100%;border-collapse: collapse;">
+                        <tr style="margin-bottom:40px;">
+                            <td  style="border-bottom: 2px solid #ff8000;">
+                                <b style="font-size: 18px;height:2px;color:#6c6760;">COURSE DESCRIPTION</b>
+                            </td >
+                            <td style="border-bottom: 2px solid #ff8000;">
+                                <b style="font-size: 18px;height:2px;color:#6c6760;">BASIC PRICE</b>
+                            </td>
+                            <td  style="border-bottom: 2px solid #ff8000;">
+                                <b style="font-size: 18px;height:2px;color:#6c6760;">TAX</b>
+                            </td>
+                            <td style="border-bottom: 2px solid #ff8000;">
+                                <b style="font-size: 18px;height:2px;color:#6c6760;">AMOUNT</b>
+                            </td>
+                        </tr>
+                        <tr style="padding:18px;text-align: left;">
+                            <td style="font-size: 14px;height:1px;color:#6c6760;border-bottom: 2px solid #404040;">
+                                {!paidByRecord.Course_Master_Name__c}
+                            </td>
+                            <td style="font-size: 14px;height:1px;color:#6c6760;border-bottom: 2px solid #404040;">
+                                {!paidByRecord.Payment_Order__r.Amount_without_Tax__c}
+                            </td>
+                            <td style="font-size: 14px;height:1px;color:#6c6760;border-bottom: 2px solid #404040;">
+                                18 %
+                            </td>
+                            <td style="font-size: 14px;height:1px;color:#6c6760;border-bottom: 2px solid #404040;">
+                                {!paidByRecord.Payment_Order__r.Amount__c}
+                            </td>
+                        </tr>                        
+                    </table>
+                    <br/><br/>
+                    <table style="width:100%;border-collapse: collapse;">
+                        <tr>
+                            <td style="font-size: 14px;height:1px;color:#6c6760;border-bottom: 2px solid #404040;">
+                                <b style="font-size: 18px;height:2px;color:#6c6760;">PAYMENT METHOD</b> 
+                            </td>
+                            <td style="font-size: 14px;height:1px;color:#6c6760;border-bottom: 2px solid #404040;">
+                                <b style="font-size: 18px;height:2px;color:#6c6760;">Status</b>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="font-size: 14px;height:1px;color:#6c6760;border-bottom: 2px solid #404040;">
+                                {!paidByRecord.Payment_Order__r.Gateway__c}
+                            </td>
+                            <td style="font-size: 14px;height:1px;color:#6c6760;border-bottom: 2px solid #404040;">
+                                {!paidByRecord.Payment_Order__r.Status__c}
+                            </td>
+                        </tr>
+                    </table>
+                    <br/><br/>
+                    <p>
+                        <b style="font-size: 18px;height:2px;color:#6c6760;">THANK YOU FOR YOUR BUSINESS</b>
+                    </p>
+                    <hr style="text-align:left;margin-left:0" />
+                </div>
+            </body> 
+        </apex:form>
+    </html>
+    
+</apex:page>

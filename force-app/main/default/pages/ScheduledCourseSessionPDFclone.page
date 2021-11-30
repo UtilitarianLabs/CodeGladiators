@@ -1,0 +1,53 @@
+<apex:page controller="ScheduledCourseSessionPdfHelper" readOnly="true" applyHtmlTag="false" sidebar="false" showHeader="false" cache="true" renderAs="advanced_pdf" docType="html-5.0" >
+    <html>
+        <head>
+            <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />    
+            <style type="text/css">
+                @page {
+                size: A4 portrait;    
+                padding-left: 5px;    
+                padding-right: 5px;      
+                }
+              
+            </style>    
+            
+        </head>
+        <body >
+            <h3 style="text-align:left;color: #33ccff;"> 
+                {!CourseName}
+            </h3>
+            <p>
+                <apex:outputText value="{!courseDescription}" escape="false"/>
+            </p>
+            <apex:repeat value="{!courseModuleWithCourseSession}" var="CEModule"  >
+                <h4 style="color:  #666666">
+                    {!CEModule.Name}
+                </h4>
+                <apex:repeat value="{!CEModule.CE_Sessions__r}" var="CESession"  >
+                    <ul style="">
+                        <li style="line-height:1.2;">
+                            <apex:outputText value="{!CESession.Session_Agenda__c}" escape="false"/>
+                        </li>
+                        <ul style="list-style: none;">
+                            <li style="line-height:1.2;" >
+                                Date : &nbsp;<apex:outputText value="{0,date,yyyy.MM.dd}">
+                                <apex:param value="{!CESession.Start_DateTime__c}"/>
+                                </apex:outputText>                                
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Start Time :&nbsp; <apex:outputText value="{! CESession.Start_Time_del__c}" escape="false"/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;End Time :&nbsp; <apex:outputText value=" {!CESession.End_Time__c}" escape="false"/>
+                            </li>
+                            <li style="line-height:1.2;">
+                                <apex:outputPanel style="color:blue;" rendered="{!CESession.Meeting_Link__c != null}">
+                                    Meeting link : {!CESession.Meeting_Link__c}
+                                </apex:outputPanel>
+                            </li>
+                        </ul>
+                    </ul>
+                </apex:repeat>
+                <hr/>                
+                
+            </apex:repeat>
+        </body>
+        
+    </html>
+</apex:page>

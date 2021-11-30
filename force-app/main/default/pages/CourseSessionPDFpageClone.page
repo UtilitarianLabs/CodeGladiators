@@ -1,0 +1,40 @@
+<apex:page controller="CourseSessionPdfHelper" readOnly="true" applyHtmlTag="false" sidebar="false" showHeader="false" cache="true" renderAs="advanced_pdf" docType="html-5.0" >
+    <html>
+        <head>
+            <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />    
+            <style type="text/css">
+                @page {
+                size: A4 portrait;    
+                padding-left: 5px;    
+                padding-right: 5px;
+                font-family: Arial, Helvetica, sans-serif;
+                }
+                
+            </style>    
+            
+        </head>
+        <body >
+            <h3 style="text-align:left;color: #33ccff;"> 
+                {!CourseName}
+            </h3>
+            <p>
+                <apex:outputText value="{!courseDescription}" escape="false"/>
+            </p>
+            <apex:repeat value="{!courseModuleWithCourseSession}" var="module"  >
+                <h4 style="color:  #666666">
+                    {!module.Name}
+                </h4>
+                
+                <apex:repeat value="{!module.Course_Schedules__r}" var="session"  >
+                    <ul>
+                        <li style="  line-height:1.2;">
+                            <apex:outputText value="{!session.Session_Agenda__c}" escape="false"/>
+                            
+                        </li>
+                    </ul>
+                </apex:repeat>
+                <hr/>
+            </apex:repeat>
+        </body>
+    </html>
+</apex:page>
