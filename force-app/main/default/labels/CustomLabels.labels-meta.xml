@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>API_key</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>API key of Firestore</shortDescription>
+        <value>AIzaSyDaP-2Z1oc-UO6EyjTwP5GmTprNnXPS0b0</value>
+    </labels>
+    <labels>
+        <fullName>Account_Number</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Account Number</shortDescription>
+        <value>235805000614</value>
+    </labels>
+    <labels>
+        <fullName>Bank_Name</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Bank Name</shortDescription>
+        <value>ICICI</value>
+    </labels>
+    <labels>
+        <fullName>Bank_Swift_Code</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Bank Swift Code</shortDescription>
+        <value>ICICINBB</value>
+    </labels>
+    <labels>
+        <fullName>Company_Address</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Company Address</shortDescription>
+        <value>First Floor, No. 23 19th Cross, 24th,Main JP Nagar, 5th StageBengaluru 560078</value>
+    </labels>
+    <labels>
+        <fullName>Company_Name</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Company Name</shortDescription>
+        <value>CODE GLADIATORS LTD</value>
+    </labels>
+    <labels>
+        <fullName>Company_PAN</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Company PAN</shortDescription>
+        <value>AACCU5285G</value>
+    </labels>
+    <labels>
+        <fullName>Company_TAN</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Company TAN</shortDescription>
+        <value>RTKU02062E</value>
+    </labels>
+    <labels>
+        <fullName>Course_Enrollment_Mentee_RecordType_Id</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Course Enrollment Mentee RecordType Id</shortDescription>
+        <value>0125j000000gR8GAAU</value>
+    </labels>
+    <labels>
+        <fullName>Course_Enrollment_Mentor_RecordType_Id</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Course Enrollment Mentor RecordType Id</shortDescription>
+        <value>0125j000000gR8FAAU</value>
+    </labels>
+    <labels>
+        <fullName>Create_New_Doc</fullName>
+        <categories>Firebase</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Create New Doc FireBase</shortDescription>
+        <value>https://firestore.googleapis.com/v1/projects/studentproject-23c7e/databases/(default)/documents/</value>
+    </labels>
+    <labels>
+        <fullName>EndPoint_To_Create_User_on_FB</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EndPoint To Create User on FB</shortDescription>
+        <value>https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=</value>
+    </labels>
+    <labels>
+        <fullName>GST</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GST</shortDescription>
+        <value>06AACCU5285G1Z7</value>
+    </labels>
+    <labels>
+        <fullName>Phone</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Phone</shortDescription>
+        <value>+91 9910770310</value>
+    </labels>
+    <labels>
+        <fullName>Reset_Fb_User_Password</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reset Fb User Password</shortDescription>
+        <value>https://identitytoolkit.googleapis.com/v1/accounts:sendOobCode?key=</value>
+    </labels>
+    <labels>
+        <fullName>SessionNotificationTiming</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>this value will be used to send notification to mentee before a session starts</shortDescription>
+        <value>15</value>
+    </labels>
+    <labels>
+        <fullName>bank_IFSCCode</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Bank IFSC Code</shortDescription>
+        <value>ICIC0002358</value>
+    </labels>
+</CustomLabels>

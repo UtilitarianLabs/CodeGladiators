@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <rules>
+        <fullName>Update Students Enrolled</fullName>
+        <active>false</active>
+        <criteriaItems>
+            <field>Course_Enrollment__c.Applied_by__c</field>
+            <operation>equals</operation>
+            <value>Student</value>
+        </criteriaItems>
+        <description>When Mentor is allocated to student update no of count of Student enrolled on mentors course enrollment</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>duplicate CE</fullName>
+        <active>true</active>
+        <formula>TRUE</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

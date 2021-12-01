@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This is a platform where mentors and mentees will be enrolling to teach and learn new skills respectively</description>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>Mentorship Programme Lightning</label>
+    <navType>Standard</navType>
+    <tabs>standard-home</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>standard-Opportunity</tabs>
+    <tabs>Ass_Ques_Master__c</tabs>
+    <tabs>Assessment_Question__c</tabs>
+    <tabs>Bank_Account__c</tabs>
+    <tabs>Course_Category__c</tabs>
+    <tabs>Course_Enrollment__c</tabs>
+    <tabs>Course_Offering__c</tabs>
+    <tabs>Student_Feedback__c</tabs>
+    <tabs>Course_Master__c</tabs>
+    <tabs>Student_Test_Association__c</tabs>
+    <tabs>CE_Modules__c</tabs>
+    <tabs>CE_Session__c</tabs>
+    <tabs>Course_Review__c</tabs>
+    <tabs>Course_Schedule__c</tabs>
+    <tabs>Course_Update__c</tabs>
+    <tabs>Employment_details__c</tabs>
+    <tabs>Payment_Order__c</tabs>
+    <tabs>Session_Attachment__c</tabs>
+    <tabs>Result_Category__c</tabs>
+    <tabs>Student_Assessment_Result__c</tabs>
+    <tabs>Test_Master__c</tabs>
+    <tabs>Top_Branding__c</tabs>
+    <uiType>Lightning</uiType>
+</CustomApplication>
