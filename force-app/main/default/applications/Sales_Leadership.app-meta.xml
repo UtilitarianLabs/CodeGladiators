@@ -11,7 +11,6 @@
     </actionOverrides>
     <brand>
         <headerColor>#0070D2</headerColor>
-        <logo>Sales_leadersship</logo>
         <logoVersion>1</logoVersion>
         <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
     </brand>
@@ -29,6 +28,27 @@
     <tabs>standard-report</tabs>
     <tabs>standard-CollaborationGroup</tabs>
     <tabs>standard-Feed</tabs>
+    <tabs>Ass_Ques_Master__c</tabs>
+    <tabs>Assessment_Question__c</tabs>
+    <tabs>Bank_Account__c</tabs>
+    <tabs>Course_Category__c</tabs>
+    <tabs>Course_Enrollment__c</tabs>
+    <tabs>Course_Offering__c</tabs>
+    <tabs>Student_Feedback__c</tabs>
+    <tabs>Course_Master__c</tabs>
+    <tabs>Student_Test_Association__c</tabs>
+    <tabs>CE_Modules__c</tabs>
+    <tabs>CE_Session__c</tabs>
+    <tabs>Course_Review__c</tabs>
+    <tabs>Course_Schedule__c</tabs>
+    <tabs>Course_Update__c</tabs>
+    <tabs>Employment_details__c</tabs>
+    <tabs>Payment_Order__c</tabs>
+    <tabs>Session_Attachment__c</tabs>
+    <tabs>Result_Category__c</tabs>
+    <tabs>Student_Assessment_Result__c</tabs>
+    <tabs>Test_Master__c</tabs>
+    <tabs>Top_Branding__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Sales_Leadership_UtilityBar</utilityBar>
 </CustomApplication>

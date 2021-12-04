@@ -37,7 +37,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Discount__c</field>
+                <field>Dummy_No_of_Students__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -65,6 +65,10 @@
                 <behavior>Edit</behavior>
                 <field>Brand__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Discount__c</field>
+            </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
@@ -81,10 +85,8 @@
     <relatedLists>
         <fields>NAME</fields>
         <fields>Active__c</fields>
-        <fields>Module_Agenda__c</fields>
-        <fields>Order__c</fields>
+        <fields>Status__c</fields>
         <fields>Total_Sessions__c</fields>
-        <fields>Module_Weightage__c</fields>
         <relatedList>Course_Offering__c.Course_Master__c</relatedList>
     </relatedLists>
     <relatedLists>
@@ -106,7 +108,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00h5j00000115Az</masterLabel>
+        <masterLabel>00hO00000014riO</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>

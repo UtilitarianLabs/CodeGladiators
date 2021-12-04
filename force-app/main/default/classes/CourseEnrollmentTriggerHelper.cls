@@ -94,9 +94,9 @@ public class CourseEnrollmentTriggerHelper {
         //system.debug('courseEnrollmentByCourseMaster::'+courseEnrollmentByCourseMaster);
         if(!courseMasterIds.isEmpty()){
             // Get Course Master Map by Ids
-            courseMasterById = new Map<Id, Course_Master__c>([SELECT Id,Name,(SELECT Description__c,Module_Agenda__c,Name FROM Course_Offerings__r) FROM Course_Master__c WHERE Id in : courseMasterIds]);
+            courseMasterById = new Map<Id, Course_Master__c>([SELECT Id,Name,(SELECT Description__c,Module_Agenda__c,Name,order__c FROM Course_Offerings__r) FROM Course_Master__c WHERE Id in : courseMasterIds]);
             //Getting all course sessions by course module Id
-            CourseSessionsByCourseModuleId = new Map<Id, Course_Offering__c>([SELECT Name,Id,(Select Course_Offering__c,Session_Agenda__c,Module_Name__c,Session_Duration__c From Course_Schedules__r) FROM Course_Offering__c Where Course_Master__c in : courseMasterIds ]);
+            CourseSessionsByCourseModuleId = new Map<Id, Course_Offering__c>([SELECT Name,Id,(Select Course_Offering__c,Session_Agenda__c,Module_Name__c,Session_Duration__c,Order__c From Course_Schedules__r) FROM Course_Offering__c Where Course_Master__c in : courseMasterIds ]);
             if(!courseEnrollmentByCourseMaster.isEmpty()){
                 for(String coursemasterId : courseEnrollmentByCourseMaster.keySet()){ 				// all CE corresponding to a course master
                     
@@ -115,6 +115,7 @@ public class CourseEnrollmentTriggerHelper {
                             ceModule.Active__c = true;
                             ceModule.Course_Enrollment__c = CEId;
                             ceModule.Module_Agenda__c = courseModules.Module_Agenda__c;
+                            ceModule.Order__c = courseModules.Order__c;
                             ceModule.Description__c = courseModules.Description__c;
                             ceModulesListToBeInserted.add(ceModule);
                         }
@@ -126,7 +127,7 @@ public class CourseEnrollmentTriggerHelper {
             if(!ceModulesListToBeInserted.isEmpty()){
                 insert ceModulesListToBeInserted;
             }
-            List<Course_Offering__c> courseSessionsRelatedToCourseModule = [SELECT Name,Id,(Select Course_Offering__c,Session_Agenda__c,Module_Name__c,Session_Duration__c,Session_s_Title__c From Course_Schedules__r) FROM Course_Offering__c Where Course_Master__c in : courseMasterIds];
+            List<Course_Offering__c> courseSessionsRelatedToCourseModule = [SELECT Name,Id,order__c,(Select Course_Offering__c,Session_Agenda__c,Module_Name__c,Session_Duration__c,Session_s_Title__c,order__c From Course_Schedules__r) FROM Course_Offering__c Where Course_Master__c in : courseMasterIds];
             Map<string, List<Course_Schedule__c>> courseSessionsByCourseModuleName = new Map<string, List<Course_Schedule__c>>();
             for(Course_Offering__c courseModule : courseSessionsRelatedToCourseModule){
                 List<Course_Schedule__c> courseSessionsToBeAdded = new List<Course_Schedule__c> ();
@@ -138,7 +139,7 @@ public class CourseEnrollmentTriggerHelper {
             }
             //system.debug('courseSessionsByCourseModuleName::'+courseSessionsByCourseModuleName);
             List<CE_Session__c> ceSessionListToBeInserted = new List<CE_Session__c>();
-            List<CE_Modules__c> CEModulesList = [SELECT Course_Enrollment__c,Course_Master__c,Description__c,Id,Module_Agenda__c,Name,Status__c FROM CE_Modules__c where Course_Enrollment__c in : ceIds AND Course_Master__c in : courseMasterIds];
+            List<CE_Modules__c> CEModulesList = [SELECT Course_Enrollment__c,Course_Master__c,Description__c,Id,Module_Agenda__c,Name,Status__c,order__c FROM CE_Modules__c where Course_Enrollment__c in : ceIds AND Course_Master__c in : courseMasterIds];
             system.debug('CEModulesList::'+CEModulesList);
             if(!CEModulesList.isEmpty()){
                 for(CE_Modules__c ceModule : CEModulesList){
@@ -149,6 +150,7 @@ public class CourseEnrollmentTriggerHelper {
                         ceSession.CE_Module__c = ceModule.Id;
                         ceSession.Session_Agenda__c =  courseSessionUnderModule.Session_Agenda__c != null? courseSessionUnderModule.Session_Agenda__c: '' ;
                         ceSession.Status__c = 'CREATED';
+                        ceSession.order__c =  courseSessionUnderModule.order__c;
                         ceSession.Session_Title__c = courseSessionUnderModule.Session_s_Title__c != null ?courseSessionUnderModule.Session_s_Title__c : ceModule.Name;
                         ceSessionListToBeInserted.add(ceSession);
                     }

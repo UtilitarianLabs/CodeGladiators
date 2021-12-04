@@ -29,11 +29,11 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Module_Agenda__c</field>
+                <field>Order__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Description__c</field>
+                <field>Module_Agenda__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -60,6 +60,10 @@
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>Session_s_Point__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Description__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>

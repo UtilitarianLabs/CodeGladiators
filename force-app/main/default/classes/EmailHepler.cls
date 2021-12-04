@@ -470,7 +470,7 @@ public class EmailHepler {
         //system.debug('emailTemplateName::'+emailTemplate);
         List<Student_Test_Association__c> studentTestAssociationList = new List<Student_Test_Association__c>();
         List<Messaging.SingleEmailMessage> mails =  new List<Messaging.SingleEmailMessage>();     
-
+        
         studentTestAssociationList = [Select id,Contact__r.Name, Contact__r.Email,Test_Master__r.Name From Student_Test_Association__c Where Id in : STAIds AND Contact__c != null];
         //system.debug('studentTestAssociationList::'+studentTestAssociationList);
         
@@ -479,7 +479,7 @@ public class EmailHepler {
             
             for (Student_Test_Association__c STARec : studentTestAssociationList) {
                 Messaging.SingleEmailMessage mail = new Messaging.SingleEmailMessage();
-              
+                
                 List<String> recipients = new List<String>();
                 recipients.add(STARec.Contact__r.Email);
                 //system.debug('recipients------'+recipients);
@@ -490,7 +490,7 @@ public class EmailHepler {
                 
                 htmlBody = htmlBody.replace('{!Contact.Name}',STARec.Contact__r.Name);
                 htmlBody = htmlBody.replace('{!Test.name}',STARec.Test_Master__r.Name );
-
+                
                 mail.setSubject(emailTemplateRec.Subject);
                 mail.setHtmlBody(htmlBody);
                 mails.add(mail);
@@ -506,7 +506,7 @@ public class EmailHepler {
         //system.debug('emailTemplateName::'+emailTemplate);
         List<Student_Test_Association__c> studentTestAssociationList = new List<Student_Test_Association__c>();
         List<Messaging.SingleEmailMessage> mails =  new List<Messaging.SingleEmailMessage>();     
-
+        
         studentTestAssociationList = [Select id,Contact__r.Name, Contact__r.Email,Contact__r.password__c,Test_Master__r.Name,Total_Marks_Obtained__c,Total_Questions__c From Student_Test_Association__c Where Id in : STAIds AND Contact__c != null];
         //system.debug('studentTestAssociationList::'+studentTestAssociationList);
         
@@ -515,7 +515,7 @@ public class EmailHepler {
             
             for (Student_Test_Association__c STARec : studentTestAssociationList) {
                 Messaging.SingleEmailMessage mail = new Messaging.SingleEmailMessage();
-              
+                
                 List<String> recipients = new List<String>();
                 recipients.add(STARec.Contact__r.Email);
                 //system.debug('recipients------'+recipients);
@@ -529,12 +529,43 @@ public class EmailHepler {
                 htmlBody = htmlBody.replace('{!test.totalQuestion}',String.valueOf(STARec.Total_Questions__c) != null?String.valueOf(STARec.Total_Questions__c):'');
                 htmlBody = htmlBody.replace('{!Contact.Email}',STARec.Contact__r.Email);
                 htmlBody = htmlBody.replace('{!contact.Password}',STARec.Contact__r.password__c != null?STARec.Contact__r.password__c : '' );
-
+                
                 mail.setSubject(emailTemplateRec.Subject);
                 mail.setHtmlBody(htmlBody);
                 mails.add(mail);
             }
             //system.debug('mails:::'+mails);
+            if(!mails.isEmpty()){
+                Messaging.sendEmail(mails);  
+            }
+        }
+    }
+    public static void MailTPOforRecruitingAndTraining(set<Id> contactIds, String emailTemplate){
+        
+        List<Contact> contactsList = new List<Contact>();
+        List<Messaging.SingleEmailMessage> mails =  new List<Messaging.SingleEmailMessage>();     
+        
+        contactsList = [SELECT Id,Name,Email,Primary_Contact__c FROM Contact WHERE AccountId != Null AND Email != NUll AND Primary_Contact__c = true AND Id in :contactIds];
+        
+        if(!contactsList.isEmpty()){
+            EmailTemplate emailTemplateRec = [Select id, Name, DeveloperName, Subject, Body, HtmlValue from EmailTemplate where Name =: emailTemplate];
+            
+            for (Contact conRec : contactsList) {
+                Messaging.SingleEmailMessage mail = new Messaging.SingleEmailMessage();
+                
+                List<String> recipients = new List<String>();
+                recipients.add(conRec.Email);
+                mail.setToAddresses(recipients);
+                mail.setSenderDisplayName('CodeGladiators');
+                
+                String htmlBody = emailTemplateRec.HtmlValue;
+                
+                htmlBody = htmlBody.replace('{!Contact.Name}',conRec.Name);
+                
+                mail.setSubject(emailTemplateRec.Subject);
+                mail.setHtmlBody(htmlBody);
+                mails.add(mail);
+            }
             if(!mails.isEmpty()){
                 Messaging.sendEmail(mails);  
             }

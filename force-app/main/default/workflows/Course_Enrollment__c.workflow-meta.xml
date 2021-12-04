@@ -1,5 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Update_Compound_Key_on_CE</fullName>
+        <field>contact_Under_CE__c</field>
+        <formula>Contact__r.Id  +  Course_Master__r.Id</formula>
+        <name>Update Compound Key on CE</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_status_of_ce_for_mentor</fullName>
+        <field>Status__c</field>
+        <literalValue>Requested by Mentor</literalValue>
+        <name>Update status of ce for mentor</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Updating_status_for_ce_of_student</fullName>
+        <field>Status__c</field>
+        <literalValue>Requested by Student</literalValue>
+        <name>Updating status for ce of student</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
     <rules>
         <fullName>Update Students Enrolled</fullName>
         <active>false</active>
@@ -13,8 +43,12 @@
     </rules>
     <rules>
         <fullName>duplicate CE</fullName>
+        <actions>
+            <name>Update_Compound_Key_on_CE</name>
+            <type>FieldUpdate</type>
+        </actions>
         <active>true</active>
-        <formula>TRUE</formula>
+        <formula>Applied_by__c = &apos;Student&apos;</formula>
         <triggerType>onAllChanges</triggerType>
     </rules>
 </Workflow>

@@ -115,7 +115,7 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.NAME</field>
-            <label>Account Name</label>
+            <label>College/Institute Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
@@ -238,28 +238,16 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5j000003FZ2o</field>
-            <label>Budget Confirmed</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N5j000003BsQp</field>
+            <field>00NO0000008meH6</field>
             <label>Contact</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5j000003FZ2p</field>
-            <label>Discovery Completed</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N5j000003FZ2r</field>
-            <label>Loss Reason</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N5j000003BsQq</field>
+            <field>00NO0000008meHB</field>
             <label>Payment Order</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5j000003FZ2q</field>
-            <label>ROI Analysis Completed</label>
+            <field>00NO0000008pbl2</field>
+            <label>SMS Opt out</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -296,12 +284,9 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5j000003FZ2o</field>
-            <field>00N5j000003BsQp</field>
-            <field>00N5j000003FZ2p</field>
-            <field>00N5j000003FZ2r</field>
-            <field>00N5j000003BsQq</field>
-            <field>00N5j000003FZ2q</field>
+            <field>00NO0000008meH6</field>
+            <field>00NO0000008meHB</field>
+            <field>00NO0000008pbl2</field>
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>bestcaseforecast</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>commitforecast</ownerAdjustableCategoryApiNames>
@@ -346,7 +331,7 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.NAME</field>
-            <label>Account Name</label>
+            <label>College/Institute Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.QUANTITY</field>
@@ -469,28 +454,16 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5j000003FZ2o</field>
-            <label>Budget Confirmed</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N5j000003BsQp</field>
+            <field>00NO0000008meH6</field>
             <label>Contact</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5j000003FZ2p</field>
-            <label>Discovery Completed</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N5j000003FZ2r</field>
-            <label>Loss Reason</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N5j000003BsQq</field>
+            <field>00NO0000008meHB</field>
             <label>Payment Order</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5j000003FZ2q</field>
-            <label>ROI Analysis Completed</label>
+            <field>00NO0000008pbl2</field>
+            <label>SMS Opt out</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -527,12 +500,9 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5j000003FZ2o</field>
-            <field>00N5j000003BsQp</field>
-            <field>00N5j000003FZ2p</field>
-            <field>00N5j000003FZ2r</field>
-            <field>00N5j000003BsQq</field>
-            <field>00N5j000003FZ2q</field>
+            <field>00NO0000008meH6</field>
+            <field>00NO0000008meHB</field>
+            <field>00NO0000008pbl2</field>
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>bestcaseforecast</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>commitforecast</ownerAdjustableCategoryApiNames>
@@ -577,7 +547,7 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.NAME</field>
-            <label>Account Name</label>
+            <label>College/Institute Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>SPLITAMOUNT</field>
@@ -704,28 +674,16 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5j000003FZ2o</field>
-            <label>Budget Confirmed</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N5j000003BsQp</field>
+            <field>00NO0000008meH6</field>
             <label>Contact</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5j000003FZ2p</field>
-            <label>Discovery Completed</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N5j000003FZ2r</field>
-            <label>Loss Reason</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N5j000003BsQq</field>
+            <field>00NO0000008meHB</field>
             <label>Payment Order</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5j000003FZ2q</field>
-            <label>ROI Analysis Completed</label>
+            <field>00NO0000008pbl2</field>
+            <label>SMS Opt out</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -763,12 +721,9 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5j000003FZ2o</field>
-            <field>00N5j000003BsQp</field>
-            <field>00N5j000003FZ2p</field>
-            <field>00N5j000003FZ2r</field>
-            <field>00N5j000003BsQq</field>
-            <field>00N5j000003FZ2q</field>
+            <field>00NO0000008meH6</field>
+            <field>00NO0000008meHB</field>
+            <field>00NO0000008pbl2</field>
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>bestcaseforecast</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>commitforecast</ownerAdjustableCategoryApiNames>
@@ -813,7 +768,7 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.NAME</field>
-            <label>Account Name</label>
+            <label>College/Institute Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.QUANTITY</field>
@@ -936,28 +891,16 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5j000003FZ2o</field>
-            <label>Budget Confirmed</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N5j000003BsQp</field>
+            <field>00NO0000008meH6</field>
             <label>Contact</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5j000003FZ2p</field>
-            <label>Discovery Completed</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N5j000003FZ2r</field>
-            <label>Loss Reason</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N5j000003BsQq</field>
+            <field>00NO0000008meHB</field>
             <label>Payment Order</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5j000003FZ2q</field>
-            <label>ROI Analysis Completed</label>
+            <field>00NO0000008pbl2</field>
+            <label>SMS Opt out</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -994,12 +937,9 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5j000003FZ2o</field>
-            <field>00N5j000003BsQp</field>
-            <field>00N5j000003FZ2p</field>
-            <field>00N5j000003FZ2r</field>
-            <field>00N5j000003BsQq</field>
-            <field>00N5j000003FZ2q</field>
+            <field>00NO0000008meH6</field>
+            <field>00NO0000008meHB</field>
+            <field>00NO0000008pbl2</field>
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>bestcaseforecast</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>commitforecast</ownerAdjustableCategoryApiNames>
@@ -1044,7 +984,7 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.NAME</field>
-            <label>Account Name</label>
+            <label>College/Institute Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>SPLITAMOUNT</field>
@@ -1171,28 +1111,16 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5j000003FZ2o</field>
-            <label>Budget Confirmed</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N5j000003BsQp</field>
+            <field>00NO0000008meH6</field>
             <label>Contact</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5j000003FZ2p</field>
-            <label>Discovery Completed</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N5j000003FZ2r</field>
-            <label>Loss Reason</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N5j000003BsQq</field>
+            <field>00NO0000008meHB</field>
             <label>Payment Order</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5j000003FZ2q</field>
-            <label>ROI Analysis Completed</label>
+            <field>00NO0000008pbl2</field>
+            <label>SMS Opt out</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -1230,12 +1158,9 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5j000003FZ2o</field>
-            <field>00N5j000003BsQp</field>
-            <field>00N5j000003FZ2p</field>
-            <field>00N5j000003FZ2r</field>
-            <field>00N5j000003BsQq</field>
-            <field>00N5j000003FZ2q</field>
+            <field>00NO0000008meH6</field>
+            <field>00NO0000008meHB</field>
+            <field>00NO0000008pbl2</field>
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>bestcaseforecast</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>commitforecast</ownerAdjustableCategoryApiNames>
@@ -1280,7 +1205,7 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.NAME</field>
-            <label>Account Name</label>
+            <label>College/Institute Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.QUANTITY</field>
@@ -1403,28 +1328,16 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5j000003FZ2o</field>
-            <label>Budget Confirmed</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N5j000003BsQp</field>
+            <field>00NO0000008meH6</field>
             <label>Contact</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5j000003FZ2p</field>
-            <label>Discovery Completed</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N5j000003FZ2r</field>
-            <label>Loss Reason</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N5j000003BsQq</field>
+            <field>00NO0000008meHB</field>
             <label>Payment Order</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5j000003FZ2q</field>
-            <label>ROI Analysis Completed</label>
+            <field>00NO0000008pbl2</field>
+            <label>SMS Opt out</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -1461,12 +1374,9 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5j000003FZ2o</field>
-            <field>00N5j000003BsQp</field>
-            <field>00N5j000003FZ2p</field>
-            <field>00N5j000003FZ2r</field>
-            <field>00N5j000003BsQq</field>
-            <field>00N5j000003FZ2q</field>
+            <field>00NO0000008meH6</field>
+            <field>00NO0000008meHB</field>
+            <field>00NO0000008pbl2</field>
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>bestcaseforecast</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>commitforecast</ownerAdjustableCategoryApiNames>
@@ -1511,7 +1421,7 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.NAME</field>
-            <label>Account Name</label>
+            <label>College/Institute Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>SPLITAMOUNT</field>
@@ -1638,28 +1548,16 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5j000003FZ2o</field>
-            <label>Budget Confirmed</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N5j000003BsQp</field>
+            <field>00NO0000008meH6</field>
             <label>Contact</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5j000003FZ2p</field>
-            <label>Discovery Completed</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N5j000003FZ2r</field>
-            <label>Loss Reason</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N5j000003BsQq</field>
+            <field>00NO0000008meHB</field>
             <label>Payment Order</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5j000003FZ2q</field>
-            <label>ROI Analysis Completed</label>
+            <field>00NO0000008pbl2</field>
+            <label>SMS Opt out</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -1697,12 +1595,9 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5j000003FZ2o</field>
-            <field>00N5j000003BsQp</field>
-            <field>00N5j000003FZ2p</field>
-            <field>00N5j000003FZ2r</field>
-            <field>00N5j000003BsQq</field>
-            <field>00N5j000003FZ2q</field>
+            <field>00NO0000008meH6</field>
+            <field>00NO0000008meHB</field>
+            <field>00NO0000008pbl2</field>
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>bestcaseforecast</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>commitforecast</ownerAdjustableCategoryApiNames>
@@ -1747,7 +1642,7 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.NAME</field>
-            <label>Account Name</label>
+            <label>College/Institute Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.QUANTITY</field>
@@ -1870,28 +1765,16 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5j000003FZ2o</field>
-            <label>Budget Confirmed</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N5j000003BsQp</field>
+            <field>00NO0000008meH6</field>
             <label>Contact</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5j000003FZ2p</field>
-            <label>Discovery Completed</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N5j000003FZ2r</field>
-            <label>Loss Reason</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N5j000003BsQq</field>
+            <field>00NO0000008meHB</field>
             <label>Payment Order</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5j000003FZ2q</field>
-            <label>ROI Analysis Completed</label>
+            <field>00NO0000008pbl2</field>
+            <label>SMS Opt out</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -1928,12 +1811,9 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5j000003FZ2o</field>
-            <field>00N5j000003BsQp</field>
-            <field>00N5j000003FZ2p</field>
-            <field>00N5j000003FZ2r</field>
-            <field>00N5j000003BsQq</field>
-            <field>00N5j000003FZ2q</field>
+            <field>00NO0000008meH6</field>
+            <field>00NO0000008meHB</field>
+            <field>00NO0000008pbl2</field>
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>bestcaseforecast</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>commitforecast</ownerAdjustableCategoryApiNames>
@@ -1978,7 +1858,7 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.NAME</field>
-            <label>Account Name</label>
+            <label>College/Institute Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>SPLITAMOUNT</field>
@@ -2105,28 +1985,16 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5j000003FZ2o</field>
-            <label>Budget Confirmed</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N5j000003BsQp</field>
+            <field>00NO0000008meH6</field>
             <label>Contact</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5j000003FZ2p</field>
-            <label>Discovery Completed</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N5j000003FZ2r</field>
-            <label>Loss Reason</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N5j000003BsQq</field>
+            <field>00NO0000008meHB</field>
             <label>Payment Order</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5j000003FZ2q</field>
-            <label>ROI Analysis Completed</label>
+            <field>00NO0000008pbl2</field>
+            <label>SMS Opt out</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -2164,12 +2032,9 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5j000003FZ2o</field>
-            <field>00N5j000003BsQp</field>
-            <field>00N5j000003FZ2p</field>
-            <field>00N5j000003FZ2r</field>
-            <field>00N5j000003BsQq</field>
-            <field>00N5j000003FZ2q</field>
+            <field>00NO0000008meH6</field>
+            <field>00NO0000008meHB</field>
+            <field>00NO0000008pbl2</field>
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>bestcaseforecast</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>commitforecast</ownerAdjustableCategoryApiNames>
@@ -2214,7 +2079,7 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.NAME</field>
-            <label>Account Name</label>
+            <label>College/Institute Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.QUANTITY</field>
@@ -2337,28 +2202,16 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5j000003FZ2o</field>
-            <label>Budget Confirmed</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N5j000003BsQp</field>
+            <field>00NO0000008meH6</field>
             <label>Contact</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5j000003FZ2p</field>
-            <label>Discovery Completed</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N5j000003FZ2r</field>
-            <label>Loss Reason</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N5j000003BsQq</field>
+            <field>00NO0000008meHB</field>
             <label>Payment Order</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5j000003FZ2q</field>
-            <label>ROI Analysis Completed</label>
+            <field>00NO0000008pbl2</field>
+            <label>SMS Opt out</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -2395,12 +2248,9 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5j000003FZ2o</field>
-            <field>00N5j000003BsQp</field>
-            <field>00N5j000003FZ2p</field>
-            <field>00N5j000003FZ2r</field>
-            <field>00N5j000003BsQq</field>
-            <field>00N5j000003FZ2q</field>
+            <field>00NO0000008meH6</field>
+            <field>00NO0000008meHB</field>
+            <field>00NO0000008pbl2</field>
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>bestcaseforecast</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>commitforecast</ownerAdjustableCategoryApiNames>
@@ -2445,7 +2295,7 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.NAME</field>
-            <label>Account Name</label>
+            <label>College/Institute Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>SPLITAMOUNT</field>
@@ -2572,28 +2422,16 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5j000003FZ2o</field>
-            <label>Budget Confirmed</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N5j000003BsQp</field>
+            <field>00NO0000008meH6</field>
             <label>Contact</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5j000003FZ2p</field>
-            <label>Discovery Completed</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N5j000003FZ2r</field>
-            <label>Loss Reason</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N5j000003BsQq</field>
+            <field>00NO0000008meHB</field>
             <label>Payment Order</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5j000003FZ2q</field>
-            <label>ROI Analysis Completed</label>
+            <field>00NO0000008pbl2</field>
+            <label>SMS Opt out</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -2631,12 +2469,9 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5j000003FZ2o</field>
-            <field>00N5j000003BsQp</field>
-            <field>00N5j000003FZ2p</field>
-            <field>00N5j000003FZ2r</field>
-            <field>00N5j000003BsQq</field>
-            <field>00N5j000003FZ2q</field>
+            <field>00NO0000008meH6</field>
+            <field>00NO0000008meHB</field>
+            <field>00NO0000008pbl2</field>
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>bestcaseforecast</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>commitforecast</ownerAdjustableCategoryApiNames>
@@ -2681,7 +2516,7 @@
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>ACCOUNT.NAME</field>
-            <label>Account Name</label>
+            <label>College/Institute Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.QUANTITY</field>
@@ -2804,28 +2639,16 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5j000003FZ2o</field>
-            <label>Budget Confirmed</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N5j000003BsQp</field>
+            <field>00NO0000008meH6</field>
             <label>Contact</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5j000003FZ2p</field>
-            <label>Discovery Completed</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N5j000003FZ2r</field>
-            <label>Loss Reason</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N5j000003BsQq</field>
+            <field>00NO0000008meHB</field>
             <label>Payment Order</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5j000003FZ2q</field>
-            <label>ROI Analysis Completed</label>
+            <field>00NO0000008pbl2</field>
+            <label>SMS Opt out</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -2862,12 +2685,9 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5j000003FZ2o</field>
-            <field>00N5j000003BsQp</field>
-            <field>00N5j000003FZ2p</field>
-            <field>00N5j000003FZ2r</field>
-            <field>00N5j000003BsQq</field>
-            <field>00N5j000003FZ2q</field>
+            <field>00NO0000008meH6</field>
+            <field>00NO0000008meHB</field>
+            <field>00NO0000008pbl2</field>
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>bestcaseforecast</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>commitforecast</ownerAdjustableCategoryApiNames>

@@ -100,4 +100,20 @@ public class ContactTrigger_Helper {
             }
         }
     }
+   /* public static void updateSinglePrimaryConUnderAccount(Map<Id, Contact> newMap, Map<Id, Contact> oldMap){
+        system.debug('Before Update trigger Method');
+        Set<Id> accountIds = new Set<Id>();
+        system.debug('newMap::'+newMap);
+        system.debug('oldMap::'+oldMap);
+        List<Contact> contactsListUnderAccount = new List<Contact>();
+        for(Contact conRec : newMap.values()){
+            if(conRec.Primary_Contact__c == true && conRec.AccountId != null){
+                accountIds.add(conRec.AccountId);
+            }
+        }
+        if(!accountIds.isEmpty()){
+            contactsListUnderAccount = [Select Id,Primary_Contact__c,AccountId From Contact Where AccountId in : accountIds];
+        }
+        
+    } */
 }

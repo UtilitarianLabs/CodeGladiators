@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Course_Review_Rec</fullName>
+    <columns>NAME</columns>
+    <columns>Given_By__c</columns>
+    <columns>Rating__c</columns>
+    <columns>Review_For__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>Course Review Rec</label>
+</ListView>

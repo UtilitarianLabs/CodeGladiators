@@ -56,9 +56,93 @@
     <tabs>standard-Feed</tabs>
     <tabs>standard-CollaborationGroup</tabs>
     <tabs>standard-File</tabs>
+    <tabs>Ass_Ques_Master__c</tabs>
+    <tabs>Assessment_Question__c</tabs>
+    <tabs>Bank_Account__c</tabs>
+    <tabs>Course_Category__c</tabs>
+    <tabs>Course_Enrollment__c</tabs>
+    <tabs>Course_Offering__c</tabs>
+    <tabs>Student_Feedback__c</tabs>
+    <tabs>Course_Master__c</tabs>
+    <tabs>Student_Test_Association__c</tabs>
+    <tabs>CE_Modules__c</tabs>
+    <tabs>CE_Session__c</tabs>
+    <tabs>Course_Review__c</tabs>
+    <tabs>Course_Schedule__c</tabs>
+    <tabs>Course_Update__c</tabs>
+    <tabs>Employment_details__c</tabs>
+    <tabs>Payment_Order__c</tabs>
+    <tabs>Session_Attachment__c</tabs>
+    <tabs>Result_Category__c</tabs>
+    <tabs>Student_Assessment_Result__c</tabs>
+    <tabs>Test_Master__c</tabs>
+    <tabs>Top_Branding__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningSalesConsole_UtilityBar</utilityBar>
     <workspaceConfig>
+        <mappings>
+            <tab>Ass_Ques_Master__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Assessment_Question__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Bank_Account__c</tab>
+        </mappings>
+        <mappings>
+            <tab>CE_Modules__c</tab>
+        </mappings>
+        <mappings>
+            <tab>CE_Session__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Course_Category__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Course_Enrollment__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Course_Master__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Course_Offering__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Course_Review__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Course_Schedule__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Course_Update__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Employment_details__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Payment_Order__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Result_Category__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Session_Attachment__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Student_Assessment_Result__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Student_Feedback__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Student_Test_Association__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Test_Master__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Top_Branding__c</tab>
+        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>

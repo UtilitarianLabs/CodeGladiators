@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assessment_Questions</fullName>
+    <columns>NAME</columns>
+    <columns>Answer_Picklist__c</columns>
+    <columns>Answer_Type__c</columns>
+    <columns>Assessment_Question_Master__c</columns>
+    <columns>Category__c</columns>
+    <columns>Expected_Answer__c</columns>
+    <columns>Question__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>Assessment Questions</label>
+</ListView>

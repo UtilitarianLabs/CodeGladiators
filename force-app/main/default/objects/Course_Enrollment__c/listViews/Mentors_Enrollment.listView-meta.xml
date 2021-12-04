@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mentors_Enrollment</fullName>
+    <columns>NAME</columns>
+    <columns>Contact__c</columns>
+    <columns>Course_Master__c</columns>
+    <columns>Mentoring_Fee__c</columns>
+    <columns>Remaining_Slots__c</columns>
+    <columns>Schedule_Start_Date__c</columns>
+    <columns>Schedule_End_Date__c</columns>
+    <columns>Status__c</columns>
+    <columns>Students_Enrolled__c</columns>
+    <columns>Students_to_Be_Alloted__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Applied_by__c</field>
+        <operation>equals</operation>
+        <value>Mentor</value>
+    </filters>
+    <label>Mentors Enrollment</label>
+</ListView>

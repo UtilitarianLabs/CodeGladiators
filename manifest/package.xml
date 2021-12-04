@@ -229,6 +229,39 @@
 		<name>LightningMessageChannel</name>
 	</types>
 	<types>
+		<members>Assessment_Question__c.Assessment_Questions</members>
+		<members>Bank_Account__c.Bank_Details</members>
+		<members>CE_Modules__c.All_CE_Modules</members>
+		<members>CE_Session__c.All_CE_Sessions</members>
+		<members>Contact.AllContacts</members>
+		<members>Contact.Mentors</members>
+		<members>Contact.MyContacts</members>
+		<members>Contact.Students</members>
+		<members>Course_Enrollment__c.All_Enrollments</members>
+		<members>Course_Enrollment__c.Mentors_Enrollment</members>
+		<members>Course_Enrollment__c.Students_Enrollment</members>
+		<members>Course_Master__c.Active_Courses</members>
+		<members>Course_Master__c.All_Courses</members>
+		<members>Course_Offering__c.All_Courses_Modules</members>
+		<members>Course_Review__c.Course_Review_Rec</members>
+		<members>Course_Schedule__c.All_Course_Sessions</members>
+		<members>Course_Update__c.Course_Update_Rec</members>
+		<members>Employment_details__c.Employment_Rec</members>
+		<members>Integration_API_Configuration__c.All</members>
+		<members>Integration_Log__c.All</members>
+		<members>Opportunity.Opportunity_Under_Student</members>
+		<members>Payment_Order__c.Payment_Order</members>
+		<members>Pricebook2.All_Price_Books</members>
+		<members>Result_Category__c.Result_Category</members>
+		<members>Scorecard.AllScorecards</members>
+		<members>Session_Attachment__c.Session_s_Attachment</members>
+		<members>Student_Assessment_Result__c.Student_Assessment_Result</members>
+		<members>Student_Feedback__c.Student_Feedback_Rec</members>
+		<members>Student_Test_Association__c.Student_Test_Association</members>
+		<members>Test_Master__c.Test_Master</members>
+		<name>ListView</name>
+	</types>
+	<types>
 		<members>*</members>
 		<name>MatchingRules</name>
 	</types>

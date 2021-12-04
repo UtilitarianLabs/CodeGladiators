@@ -16,12 +16,8 @@
                 <field>Course_Master__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>Module_Weightage__c</field>
-            </layoutItems>
-            <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Description__c</field>
+                <field>Module_Agenda__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -30,16 +26,20 @@
                 <field>Active__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
-                <field>Order__c</field>
-            </layoutItems>
-            <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>Total_Sessions__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Module_Agenda__c</field>
+                <field>Order__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Module_Weightage__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Description__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
@@ -57,9 +57,9 @@
     <relatedLists>
         <fields>NAME</fields>
         <fields>Module_Name__c</fields>
+        <fields>Planned_By__c</fields>
         <fields>Self_Paced__c</fields>
         <fields>Session_s_Title__c</fields>
-        <fields>Order__c</fields>
         <relatedList>Course_Schedule__c.Course_Offering__c</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
@@ -68,7 +68,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00h5j00000115B0</masterLabel>
+        <masterLabel>00hO00000014riI</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>

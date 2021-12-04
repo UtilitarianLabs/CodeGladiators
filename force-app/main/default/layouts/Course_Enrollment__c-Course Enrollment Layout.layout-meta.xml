@@ -71,6 +71,10 @@
                 <behavior>Edit</behavior>
                 <field>Students_to_Be_Alloted__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Enrolled_Person_s_Contact__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -167,6 +171,28 @@
     </layoutSections>
     <relatedLists>
         <relatedList>RelatedNoteList</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <fields>tdc_tsw__Scheduled_Time__c</fields>
+        <fields>tdc_tsw__isSent__c</fields>
+        <fields>tdc_tsw__Message_Text__c</fields>
+        <fields>tdc_tsw__SMS_Template__c</fields>
+        <fields>tdc_tsw__Contact__c</fields>
+        <fields>tdc_tsw__Lead__c</fields>
+        <relatedList>tdc_tsw__Scheduled_Sms__c.tdc_tsw_Course_Enrollment__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <fields>tdc_tsw__Created_Date__c</fields>
+        <fields>OWNER.ALIAS</fields>
+        <fields>tdc_tsw__Related_Object_Id_URL__c</fields>
+        <fields>tdc_tsw__Sender_Number__c</fields>
+        <fields>tdc_tsw__ToNumber__c</fields>
+        <fields>tdc_tsw__Question__c</fields>
+        <fields>tdc_tsw__SMS_Template__c</fields>
+        <fields>tdc_tsw__Message_Text_New__c</fields>
+        <relatedList>tdc_tsw__Message__c.tdc_tsw_Course_Enrollment__c</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>

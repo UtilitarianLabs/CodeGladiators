@@ -27,18 +27,17 @@
     </layoutSections>
     <relatedLists>
         <fields>NAME</fields>
-        <fields>Test_Type__c</fields>
-        <fields>Course_Master__c</fields>
         <fields>CE_Module__c</fields>
+        <fields>Test_Type__c</fields>
         <relatedList>Test_Master__c.Assessment_Question_Master__c</relatedList>
     </relatedLists>
     <relatedLists>
         <fields>NAME</fields>
-        <fields>Question__c</fields>
         <fields>Category__c</fields>
-        <fields>Expected_Answer__c</fields>
-        <fields>Answer_Picklist__c</fields>
         <fields>Answer_Type__c</fields>
+        <fields>Expected_Answer__c</fields>
+        <fields>Question__c</fields>
+        <fields>Answer_Picklist__c</fields>
         <relatedList>Assessment_Question__c.Assessment_Question_Master__c</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
@@ -47,7 +46,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00h5j00000115As</masterLabel>
+        <masterLabel>00hO00000014reJ</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>

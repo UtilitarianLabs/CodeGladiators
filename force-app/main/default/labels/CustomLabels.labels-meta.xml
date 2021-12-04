@@ -40,7 +40,7 @@
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>Company Name</shortDescription>
-        <value>CODE GLADIATORS LTD</value>
+        <value>CODE GLADIATORS PVT LTD</value>
     </labels>
     <labels>
         <fullName>Company_PAN</fullName>
@@ -61,14 +61,14 @@
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>Course Enrollment Mentee RecordType Id</shortDescription>
-        <value>0125j000000gR8GAAU</value>
+        <value>012O0000000Un7sIAC</value>
     </labels>
     <labels>
         <fullName>Course_Enrollment_Mentor_RecordType_Id</fullName>
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>Course Enrollment Mentor RecordType Id</shortDescription>
-        <value>0125j000000gR8FAAU</value>
+        <value>012O0000000Un7nIAC</value>
     </labels>
     <labels>
         <fullName>Create_New_Doc</fullName>

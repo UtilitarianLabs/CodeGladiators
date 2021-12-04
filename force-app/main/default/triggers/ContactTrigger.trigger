@@ -1,4 +1,4 @@
-trigger ContactTrigger on Contact (after insert,after update,before delete,before insert) {
+trigger ContactTrigger on Contact (after insert,after update,before update,before delete,before insert) {
     if(trigger.isAfter &&(trigger.isInsert)){
         system.debug('Contact Trigger after insert');
         //After insert of contact as per record type i.e. mentor or student send welcome email
@@ -14,4 +14,9 @@ trigger ContactTrigger on Contact (after insert,after update,before delete,befor
         ContactTrigger_Helper.deleteFbAcc(trigger.oldMap);
         ContactTrigger_Helper.deletePaymentSTAOpportunity(trigger.oldMap);
     }
+    
+    /*if(trigger.isBefore && trigger.isUpdate){
+        system.debug('Before update Trigger');
+        ContactTrigger_Helper.updateSinglePrimaryConUnderAccount(trigger.newMap, trigger.oldMap);
+    }*/
 }

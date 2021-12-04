@@ -1,0 +1,10 @@
+/**
+* Created by ET-MARLABS on 06-04-2019.
+*/
+.THIS.slds-spinner_container {
+    z-index: 10000;
+    position: fixed;
+}
+.THIS .border{
+    border-style: inset;
+}

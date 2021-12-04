@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Students_Enrollment</fullName>
+    <columns>NAME</columns>
+    <columns>Contact__c</columns>
+    <columns>Course_Master__c</columns>
+    <columns>Mentor__c</columns>
+    <columns>Mentor_Course_Enrollment__c</columns>
+    <columns>Payment_Order__c</columns>
+    <columns>Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Applied_by__c</field>
+        <operation>equals</operation>
+        <value>Student</value>
+    </filters>
+    <label>Students Enrollment</label>
+</ListView>
