@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Log_Request_and_Response_body__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>If true, the request and response body would be logged.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If true, the request and response body would be logged.</inlineHelpText>
+    <label>Log Request and Response</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

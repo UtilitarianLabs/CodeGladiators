@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Paid_Courses</fullName>
+    <columns>NAME</columns>
+    <columns>Active__c</columns>
+    <columns>Course_Category__c</columns>
+    <columns>Course_Price__c</columns>
+    <columns>Discount__c</columns>
+    <columns>Paid_Course__c</columns>
+    <columns>Total_Sessions__c</columns>
+    <columns>Total_Mentor_Enrolments__c</columns>
+    <columns>Total_Student_Enrolments__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Paid_Course__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Paid Courses</label>
+</ListView>

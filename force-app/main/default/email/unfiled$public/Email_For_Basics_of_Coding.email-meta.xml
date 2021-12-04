@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Email For Basics of Coding</name>
+    <style>none</style>
+    <subject>Skills Test</subject>
+    <textOnly>&lt;html&gt;
+&lt;body&gt;
+Dear &lt;b&gt;{!Contact.FirstName} {!Contact.LastName}&lt;/b&gt;,&lt;br/&gt;&lt;br/&gt;
+We have scheduled a test of Basic Knowledge of Coding for you as as we move further for you.So, Click the following link 
+
+
+
+&lt;a href=&quot;https://umdev-authproviderfortest.cs73.force.com/QuestionPaper?id={!Contact.Id}&quot;&gt;Click Here&lt;/a&gt; and attempt the following test.
+&lt;/body&gt;
+&lt;/html&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

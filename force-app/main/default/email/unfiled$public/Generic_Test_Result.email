@@ -1,0 +1,12 @@
+<html>
+<body>
+Dear <b>{!Contact.Name}</b>,<br/><br/>
+You have successfully completed Pre-Qualification test and you have scored <b>{!test.Mark}</b> out of {!test.totalQuestion}.<br/><br/>
+For any future references you can visit our website, by clicking <b><a href="https://app.codegladiators.in/">Code Gladiators</a></b>.<br/><br/>
+Credentials for login :<br/>
+<b>Username </b>: {!Contact.Email}<br/>
+<b>Password</b> : {!contact.Password}<br/></br>
+Best Wishes<br/>
+Utilitarian Lab
+</body>
+</html>

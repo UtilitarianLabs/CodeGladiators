@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Number_Of_Retries__c</fullName>
+    <defaultValue>0</defaultValue>
+    <description>If the response indicates that the request needs to be retied, or there is an http timeout, then the framework will retry the number of times specified in this field.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Number of retries allowed for the integration request</inlineHelpText>
+    <label>Number Of Retries</label>
+    <precision>1</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

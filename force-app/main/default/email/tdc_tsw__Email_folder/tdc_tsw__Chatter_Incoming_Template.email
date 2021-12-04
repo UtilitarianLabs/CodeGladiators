@@ -1,0 +1,3 @@
+{!tdc_tsw__Message__c.tdc_tsw__Message_Text_New__c} 
+From: {!tdc_tsw__Message__c.tdc_tsw__Sender_Number__c} 
+To: {!tdc_tsw__Message__c.tdc_tsw__ToNumber__c}

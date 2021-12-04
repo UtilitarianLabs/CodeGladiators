@@ -1,0 +1,9 @@
+<html>
+<body>
+Dear Mentor <b>{!Contact.Name} </b>,<br/><br/>
+Mentees have been assigned to you as per the Enrolled Course <b>{!course.Name}</b>.<br/>
+Please arrange the sessions accordingly. <br/><br/>
+Best Wishes<br/>
+Utilitarian Labs
+</body>
+</html>

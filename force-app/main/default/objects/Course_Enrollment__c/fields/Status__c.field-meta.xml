@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Requested by Mentor</fullName>
+                <default>false</default>
+                <label>Requested by Mentor</label>
+            </value>
+            <value>
+                <fullName>Requested by Student</fullName>
+                <default>false</default>
+                <label>Requested by Student</label>
+            </value>
+            <value>
+                <fullName>Allocated for Mentoring</fullName>
+                <default>false</default>
+                <label>Allocated for Mentoring</label>
+            </value>
+            <value>
+                <fullName>Student Allocated</fullName>
+                <default>false</default>
+                <label>Student Allocated</label>
+            </value>
+            <value>
+                <fullName>Course in Progress</fullName>
+                <default>false</default>
+                <label>Course in Progress</label>
+            </value>
+            <value>
+                <fullName>Course Completed</fullName>
+                <default>false</default>
+                <label>Course Completed</label>
+            </value>
+            <value>
+                <fullName>Sessions Scheduled</fullName>
+                <default>false</default>
+                <label>Sessions Scheduled</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

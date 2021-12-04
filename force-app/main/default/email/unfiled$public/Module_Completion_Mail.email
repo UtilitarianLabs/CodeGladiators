@@ -1,0 +1,8 @@
+<html>
+<body>
+Dear <b>{!Contact.Name}</b>,<br/><br/>
+Congratulations on completing the module <b> {!Module.Name}</b> .<br/><br/>
+Best Wishes<br/>
+Utilitarian Labs
+</body>
+</html>

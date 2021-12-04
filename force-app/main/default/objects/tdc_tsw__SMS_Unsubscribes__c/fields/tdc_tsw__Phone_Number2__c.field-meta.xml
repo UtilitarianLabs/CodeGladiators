@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tdc_tsw__Phone_Number2__c</fullName>
+    <deprecated>false</deprecated>
+    <description>To show Phone Number in single format</description>
+    <externalId>false</externalId>
+    <formula>IF(tdc_tsw__Phone_Number__c &lt;&gt; Null || tdc_tsw__Phone_Number__c &lt;&gt; &quot;&quot;,
+SUBSTITUTE(
+SUBSTITUTE(
+SUBSTITUTE(
+SUBSTITUTE(
+SUBSTITUTE(
+SUBSTITUTE(
+SUBSTITUTE(
+SUBSTITUTE(
+SUBSTITUTE(tdc_tsw__Phone_Number__c, &quot; &quot;, &quot;&quot;),&quot;(&quot;,&quot;&quot; ), &quot;)&quot;,&quot;&quot;),&quot;-&quot;,&quot;&quot;),&quot;_&quot;,&quot;&quot;),&quot;.&quot;,&quot;&quot;),&quot;+&quot;,&quot;&quot;),&quot;,&quot;,&quot;&quot;),&quot;/&quot;,&quot;&quot;),&quot;&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Phone Number</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

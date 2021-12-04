@@ -1,0 +1,11 @@
+<html>
+<body>
+Dear <b>{!Contact.FirstName} {!Contact.LastName}</b>,<br/><br/>
+We welcome you to this platform, I would like to thank you for dedicating your valuable time and energy into the mentoring program, to
+help increase preparedness, confidence, and knowledge of Student's future career.<br/>
+<p>Please <a href="https://student-program.netlify.app/signin">Click</a> this link to login and view courses and enroll under them. 
+<br/><br/>
+Best Wishes<br/>
+Utilitarian Labs
+</body>
+</html>

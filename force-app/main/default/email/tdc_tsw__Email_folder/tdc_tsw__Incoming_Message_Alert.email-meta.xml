@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Incoming Message Alert</name>
+    <style>none</style>
+    <subject>Incoming Message Alert from 360 SMS App for Salesforce</subject>
+    <textOnly>{!tdc_tsw__Message__c.tdc_tsw__Message_Text_New__c} 
+
+Click the links to view records in Salesforce:
+
+{!tdc_tsw__Message__c.tdc_tsw__Related_Object__c}: {!tdc_tsw__Message__c.tdc_tsw__Sender_Name__c}
+
+Incoming Msg: {!tdc_tsw__Message__c.Id} 
+
+Message: {!tdc_tsw__Message__c.tdc_tsw__Message_Text_New__c}
+
+### Replying to this msg sends Outbound SMS ###&lt;br&gt;&lt;br&gt;
+
+*** IMPORTANT - DO NOT MODIFY ***
+Sender Number:{!tdc_tsw__Message__c.tdc_tsw__Sender_Number__c} 
+To Number:&lt;/b&gt;{!tdc_tsw__Message__c.tdc_tsw__ToNumber__c}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

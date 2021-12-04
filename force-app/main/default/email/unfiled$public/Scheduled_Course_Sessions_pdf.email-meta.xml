@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email with scheduled ce sessions will be fired to mentor</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Scheduled Course Sessions pdf</name>
+    <style>none</style>
+    <subject>Scheduled Course Sessions list</subject>
+    <textOnly>Dear {!Contact.Name} ,
+
+Please find the attached file, enlisting Module&apos;s list and Session&apos;s list scheduled by you . For {!Course.Name} course.
+
+
+Best Wishes
+Utilitarian Labs</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

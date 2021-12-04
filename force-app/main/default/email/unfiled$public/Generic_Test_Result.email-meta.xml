@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Result for the Pre-Qualification test</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Generic Test Result</name>
+    <style>none</style>
+    <subject>Result for the Pre-Qualification test</subject>
+    <textOnly>Dear {!Contact.Name},
+
+You have successfully completed Pre-Qualification test and you have scored {!test.Mark} out of {!test.totalQuestion}.
+
+For any future references you can visit our website, by clicking Code Gladiators.
+
+Credentials for login :
+Username : {!Contact.Email}
+Password : {!contact.Password}
+
+Best Wishes
+Utilitarian Lab</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

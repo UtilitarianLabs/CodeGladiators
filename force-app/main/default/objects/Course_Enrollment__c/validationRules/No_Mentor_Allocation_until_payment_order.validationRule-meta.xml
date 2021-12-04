@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Mentor_Allocation_until_payment_order</fullName>
+    <active>true</active>
+    <description>Mentor allocation will not happen for students till payment order is not filled</description>
+    <errorConditionFormula>Payment_Order__c = Null &amp;&amp;  Mentor_Course_Enrollment__c != null</errorConditionFormula>
+    <errorDisplayField>Payment_Order__c</errorDisplayField>
+    <errorMessage>For mentor Allocation Payment Order is Mandatory</errorMessage>
+</ValidationRule>

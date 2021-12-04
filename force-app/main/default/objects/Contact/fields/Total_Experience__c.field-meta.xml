@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Experience__c</fullName>
+    <description>this field will be a roll-up of child employment&apos;s field total experience</description>
+    <externalId>false</externalId>
+    <label>Total Experience in Months</label>
+    <summarizedField>Employment_details__c.Experience_in_Months__c</summarizedField>
+    <summaryForeignKey>Employment_details__c.Contact__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <type>Summary</type>
+</CustomField>

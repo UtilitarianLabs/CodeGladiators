@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tdc_cti__Call_Highlighter__c</fullName>
+    <deprecated>false</deprecated>
+    <description>It is used to store the Id where the dialer list was paused</description>
+    <externalId>false</externalId>
+    <label>Call Highlighter</label>
+    <length>25</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,13 @@
+<html>
+<body>
+Dear <b>{!Contact.Name} </b>,<br/><br/>
+Mentor has been assigned to you for the course {!Course.name} you have enrolled for, Mentor name and email is enlisted below<br/><br/>
+Mentor Name : {!Mentor.Name}<br/>
+Mentor email: {!Mentor.Email}<br/><br/>
+Please do find the attached file for Course Sessions, scheduled by mentor.
+<br/><br/>
+Best Wishes<br/>
+Utilitarian Labs
+
+</body>
+</html>

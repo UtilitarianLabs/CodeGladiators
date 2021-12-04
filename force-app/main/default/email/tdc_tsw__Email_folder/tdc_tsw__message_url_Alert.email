@@ -1,0 +1,30 @@
+One of your links in an SMS was just clicked. <br><br>
+<table border="0">
+   <tr><td colspan="2"><b>Click the hyperlinks to view in Salesforce:</b></td></tr>
+   <tr>
+      <td valign="top"><b>{!tdc_tsw__Message_Url__c.tdc_tsw__Related_Object__c}:</b></td>
+      <td valign="top">
+ <a href="https://login.salesforce.com/{!tdc_tsw__Message_Url__c.tdc_tsw__Related_Object_Id__c}" target="_blank">{!tdc_tsw__Message_Url__c.tdc_tsw__Sender_Name__c}</a>
+    </td>
+   </tr>
+   <tr>
+<td valign="top"><b>URL Clicked:</b></td>
+<td valign="top">{!tdc_tsw__Message_Url__c.tdc_tsw__UrlLink__c}</td>
+   </tr>
+   <tr>
+<td valign="top"><b># Clicks:</b></td>
+<td valign="top">{!tdc_tsw__Message_Url__c.tdc_tsw__Clicks__c}</td>
+  </tr>
+   <tr>
+<td valign="top"><b>1st Click:</b></td>
+<td valign="top">{!tdc_tsw__Message_Url__c.tdc_tsw__First_Click_tz__c}</td>
+   </tr>
+   <tr>
+<td valign="top"><b>Last Click:</b></td>
+<td valign="top">{!tdc_tsw__Message_Url__c.tdc_tsw__Last_Click_tz__c}</td>
+  </tr>
+   <tr>
+<td valign="top"><b>Link Dtl:</b></td>
+<td valign="top"><a href="https://login.salesforce.com/{!tdc_tsw__Message_Url__c.Id}">SF Record</a></td>
+  </tr>
+</table>

@@ -1,0 +1,13 @@
+<html>
+<body>
+Dear <b>{!Contact.Name} </b>,<br/><br/>
+You have successfully registered for <b>{!Course.Name}</b> course. <br/>We wish you best of luck for your upcoming sessions related to course. Please find the attached file, enlisting Module's list and Session's list.
+<br/>
+<p>Please <a href="https://student-program.netlify.app/course/detail/{!CourseMaster.Id}">Click</a> this link to Register a seat under an Upcoming Batch. 
+<br/>
+
+Best Wishes<br/>
+Utilitarian Labs
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+#################### Reply Above ####################<br><br>
+<i>{!tdc_tsw__Message__c.tdc_tsw__Message_Text_New__c}</i> 
+<br><br>
+<table border="0">
+   <tr><td colspan="2"><b>Click the links to view records in Salesforce:<b></td></tr>
+   <tr>
+      <td valign="top"><b>{!tdc_tsw__Message__c.tdc_tsw__Related_Object__c}:</b></td>
+      <td valign="top">
+           <a href="https://login.salesforce.com/{!tdc_tsw__Message__c.tdc_tsw__Related_Object_Id__c}" target="_blank">{!tdc_tsw__Message__c.tdc_tsw__Sender_Name__c}</a>
+      </td>
+   </tr>
+   <tr>
+   </tr> 
+   <tr>
+          <td valign="top"><b>Incoming Msg:</b></td>
+          <td valign="top">
+ <a href="https://login.salesforce.com/{!tdc_tsw__Message__c.Id}"  target="_blank">Incoming Msg</a>
+         </td>
+   </tr>
+ 
+  <tr>
+      <td valign="top"><b>Message:</b></td>
+      <td valign="top"><i>{!tdc_tsw__Message__c.tdc_tsw__Message_Text_New__c}</i>
+      </td>
+  </tr>
+</table>
+<br>
+
+### Replying to this msg sends Outbound SMS ###<br><br>
+
+<b>*** IMPORTANT - DO NOT MODIFY ***</b><br>
+<b>Sender Number:</b>{!tdc_tsw__Message__c.tdc_tsw__Sender_Number__c} <br>
+<b>To Number:</b>{!tdc_tsw__Message__c.tdc_tsw__ToNumber__c}<br>

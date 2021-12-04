@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>a detailed mail with an attachment of mentor course schedules will be send enlisting the important points for mentor</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Detailed Mail to Mentor After CE</name>
+    <style>none</style>
+    <subject>Detailed Mail regarding steps to be taken to proceed smoothly</subject>
+    <textOnly>Dear {!Contact.Name} ,
+
+You have successfully registered for {!Course.Name} course.
+We wish you best of luck for your upcoming sessions related to course. Please do will the enlisted details
+
+1. Start Plan Date
+2. End Plan Date
+3. Course Fees
+4.  Number of Students you want to mentor in a batch i.e. Student to mentor ratio
+
+and in case you want any session to be self-paced please do upload the link of YouTube video which will be helpful to mentees for the respective session.
+
+Best Wishes
+Utilitarian Labs</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>For Colleges</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Recruiting Drive Mail</name>
+    <style>none</style>
+    <subject>Recruitment Drive for UTILITARIAN LABS Pvt Ltd</subject>
+    <textOnly>Hello {!Contact.Name},
+
+I am writing this mail on behalf of Code Gladiator’s, a training arm of UTILITARIAN LABS Pvt Ltd which is a Salesforce led software development company based in Bengaluru.
+
+We currently have requirement of 10 Candidates for Salesforce &amp; Android developer roles in our own company and another 10 openings in associate organization for which we intend to conduct recruitment drive.
+
+Candidates will be selected on basis of a technical test and will undergo 45 days of technical training.
+
+Post completion of their training student’s will be formally inducted into our company. Package of candidates will initially will be in range of 1.8-2.4 Lakhs for first six months. Our company policies are very liberal and we appraise performance of candidates biannually and compensate them fairly.
+
+Kindly lets us know the convenient dates to conduct this recruitment drive.
+
+Chandan Kumar
+Operations Head,
+Code Gladiators
++91-9910-770-310+91-8178967083+91-9654358570(WhatsApp)</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

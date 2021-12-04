@@ -1,0 +1,10 @@
+<html>
+<body>
+Dear <b>{!Contact.FirstName} {!Contact.LastName}</b>,<br/><br/>
+We have scheduled a test of Basic Knowledge of Coding for you as as we move further for you.So, Click the following link 
+
+
+
+<a href="https://umdev-authproviderfortest.cs73.force.com/QuestionPaper?id={!Contact.Id}">Click Here</a> and attempt the following test.
+</body>
+</html>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Mentor_Enrolments__c</fullName>
+    <externalId>false</externalId>
+    <label>Total Mentors Enrolments</label>
+    <summaryFilterItems>
+        <field>Course_Enrollment__c.RecordTypeId</field>
+        <operation>equals</operation>
+        <value>Mentor</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Course_Enrollment__c.Course_Master__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

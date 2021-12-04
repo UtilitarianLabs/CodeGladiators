@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tdc_tsw__Community_Attached_Files_Secondary__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This field is used for showing the attachment for community and it contains Fourth and Fifth attachment files.</description>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK(tdc_tsw__Attachments_Ids__c), &quot;&quot;, 
+
+IF(VALUE(RIGHT(tdc_tsw__Attachments_Ids__c,(LEN(tdc_tsw__Attachments_Ids__c)-(LEN(tdc_tsw__Attachments_Ids__c)-1))))&gt;3, 
+HYPERLINK(LEFT($Api.Partner_Server_URL_260, FIND( &apos;/ser&apos;, $Api.Partner_Server_URL_260)) &amp; &apos;servlet/servlet.FileDownload?file=&apos;+LEFT(RIGHT(tdc_tsw__Attachments_Ids__c,LEN(tdc_tsw__Attachments_Ids__c)-FIND(&apos;,&apos;,tdc_tsw__Attachments_Ids__c,FIND(&apos;,&apos;,tdc_tsw__Attachments_Ids__c,FIND(&apos;,&apos;,tdc_tsw__Attachments_Ids__c)+1)+1)),18),IMAGE(LEFT($Api.Partner_Server_URL_260, FIND( &apos;/ser&apos;, $Api.Partner_Server_URL_260)) &amp; &apos;resource/tdc_tsw__Lightning_Resource/icons/doctype/&apos;+RIGHT(LEFT(RIGHT(tdc_tsw__Attachments_Ids__c,LEN(tdc_tsw__Attachments_Ids__c)-FIND(&apos;,&apos;,tdc_tsw__Attachments_Ids__c,FIND(&apos;,&apos;,tdc_tsw__Attachments_Ids__c,FIND(&apos;,&apos;,tdc_tsw__Attachments_Ids__c)+1)+1)), 31),12),&apos;&apos;))&amp;&quot; &quot;&amp; 
+
+IF(VALUE(RIGHT(tdc_tsw__Attachments_Ids__c,(LEN(tdc_tsw__Attachments_Ids__c)-(LEN(tdc_tsw__Attachments_Ids__c)-1))))&gt;4, 
+HYPERLINK(LEFT($Api.Partner_Server_URL_260, FIND( &apos;/ser&apos;, $Api.Partner_Server_URL_260)) &amp; &apos;servlet/servlet.FileDownload?file=&apos;+LEFT(RIGHT(tdc_tsw__Attachments_Ids__c,LEN(tdc_tsw__Attachments_Ids__c)-FIND(&apos;,&apos;,tdc_tsw__Attachments_Ids__c,FIND(&apos;,&apos;,tdc_tsw__Attachments_Ids__c,FIND(&apos;,&apos;,tdc_tsw__Attachments_Ids__c,FIND(&apos;,&apos;,tdc_tsw__Attachments_Ids__c)+1)+1)+1)),18),IMAGE(LEFT($Api.Partner_Server_URL_260, FIND( &apos;/ser&apos;, $Api.Partner_Server_URL_260)) &amp; &apos;resource/tdc_tsw__Lightning_Resource/icons/doctype/&apos;+RIGHT(LEFT(RIGHT(tdc_tsw__Attachments_Ids__c,LEN(tdc_tsw__Attachments_Ids__c)-FIND(&apos;,&apos;,tdc_tsw__Attachments_Ids__c,FIND(&apos;,&apos;,tdc_tsw__Attachments_Ids__c,FIND(&apos;,&apos;,tdc_tsw__Attachments_Ids__c,FIND(&apos;,&apos;,tdc_tsw__Attachments_Ids__c)+1)+1)+1)), 31),12),&apos;&apos;))&amp;&quot; &quot;&amp; 
+
+IF(VALUE(RIGHT(tdc_tsw__Attachments_Ids__c,(LEN(tdc_tsw__Attachments_Ids__c)-(LEN(tdc_tsw__Attachments_Ids__c)-1))))&gt;5, 
+HYPERLINK(LEFT($Api.Partner_Server_URL_260, FIND( &apos;/ser&apos;, $Api.Partner_Server_URL_260)) &amp; &apos;servlet/servlet.FileDownload?file=&apos;+LEFT(RIGHT(tdc_tsw__Attachments_Ids__c,32),18),IMAGE(LEFT($Api.Partner_Server_URL_260, FIND( &apos;/ser&apos;, $Api.Partner_Server_URL_260)) &amp; &apos;resource/tdc_tsw__Lightning_Resource/icons/doctype/&apos;+LEFT(RIGHT(tdc_tsw__Attachments_Ids__c, 13),12),&apos;&apos;)),&quot;&quot;),&quot;&quot;),&quot;&quot;))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Community Attached Files Secondary</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

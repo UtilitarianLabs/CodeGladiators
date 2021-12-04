@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tdc_tsw__Attached_Files_c__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK(tdc_tsw__Attachments_Ids__c), &quot;&quot;, 
+HYPERLINK(&apos;/servlet/servlet.FileDownload?file=&apos;+LEFT(tdc_tsw__Attachments_Ids__c,18),IMAGE(&apos;/resource/tdc_tsw__Lightning_Resource/icons/doctype/&apos;+RIGHT(LEFT(tdc_tsw__Attachments_Ids__c,31),12),&apos;&apos;))&amp;&quot; &quot;&amp; 
+
+IF(VALUE(RIGHT(tdc_tsw__Attachments_Ids__c,(LEN(tdc_tsw__Attachments_Ids__c)-(LEN(tdc_tsw__Attachments_Ids__c)-1))))&gt;1, 
+HYPERLINK(&apos;/servlet/servlet.FileDownload?file=&apos;+LEFT(RIGHT(tdc_tsw__Attachments_Ids__c,LEN(tdc_tsw__Attachments_Ids__c)-FIND(&apos;,&apos;,tdc_tsw__Attachments_Ids__c)),18),IMAGE(&apos;/resource/tdc_tsw__Lightning_Resource/icons/doctype/&apos;+RIGHT(LEFT(RIGHT(tdc_tsw__Attachments_Ids__c,LEN(tdc_tsw__Attachments_Ids__c)-FIND(&apos;,&apos;,tdc_tsw__Attachments_Ids__c)),31),12),&apos;&apos;))&amp;&quot; &quot;&amp; 
+
+IF(VALUE(RIGHT(tdc_tsw__Attachments_Ids__c,(LEN(tdc_tsw__Attachments_Ids__c)-(LEN(tdc_tsw__Attachments_Ids__c)-1))))&gt;2, 
+HYPERLINK(&apos;/servlet/servlet.FileDownload?file=&apos;+LEFT(RIGHT(tdc_tsw__Attachments_Ids__c,LEN(tdc_tsw__Attachments_Ids__c)-FIND(&apos;,&apos;,tdc_tsw__Attachments_Ids__c,FIND(&apos;,&apos;,tdc_tsw__Attachments_Ids__c)+1)),18),IMAGE(&apos;/resource/tdc_tsw__Lightning_Resource/icons/doctype/&apos;+RIGHT(LEFT(RIGHT(tdc_tsw__Attachments_Ids__c,LEN(tdc_tsw__Attachments_Ids__c)-FIND(&apos;,&apos;,tdc_tsw__Attachments_Ids__c,FIND(&apos;,&apos;,tdc_tsw__Attachments_Ids__c)+1)),31),12),&apos;&apos;))&amp;&quot; &quot;&amp; 
+
+IF(VALUE(RIGHT(tdc_tsw__Attachments_Ids__c,(LEN(tdc_tsw__Attachments_Ids__c)-(LEN(tdc_tsw__Attachments_Ids__c)-1))))&gt;3, 
+HYPERLINK(&apos;/servlet/servlet.FileDownload?file=&apos;+LEFT(RIGHT(tdc_tsw__Attachments_Ids__c,LEN(tdc_tsw__Attachments_Ids__c)-FIND(&apos;,&apos;,tdc_tsw__Attachments_Ids__c,FIND(&apos;,&apos;,tdc_tsw__Attachments_Ids__c,FIND(&apos;,&apos;,tdc_tsw__Attachments_Ids__c)+1)+1)),18),IMAGE(&apos;/resource/tdc_tsw__Lightning_Resource/icons/doctype/&apos;+RIGHT(LEFT(RIGHT(tdc_tsw__Attachments_Ids__c,LEN(tdc_tsw__Attachments_Ids__c)-FIND(&apos;,&apos;,tdc_tsw__Attachments_Ids__c,FIND(&apos;,&apos;,tdc_tsw__Attachments_Ids__c,FIND(&apos;,&apos;,tdc_tsw__Attachments_Ids__c)+1)+1)), 31),12),&apos;&apos;))&amp;&quot; &quot;&amp; 
+
+IF(VALUE(RIGHT(tdc_tsw__Attachments_Ids__c,(LEN(tdc_tsw__Attachments_Ids__c)-(LEN(tdc_tsw__Attachments_Ids__c)-1))))&gt;4, 
+HYPERLINK(&apos;/servlet/servlet.FileDownload?file=&apos;+LEFT(RIGHT(tdc_tsw__Attachments_Ids__c,LEN(tdc_tsw__Attachments_Ids__c)-FIND(&apos;,&apos;,tdc_tsw__Attachments_Ids__c,FIND(&apos;,&apos;,tdc_tsw__Attachments_Ids__c,FIND(&apos;,&apos;,tdc_tsw__Attachments_Ids__c,FIND(&apos;,&apos;,tdc_tsw__Attachments_Ids__c)+1)+1)+1)),18),IMAGE(&apos;/resource/tdc_tsw__Lightning_Resource/icons/doctype/&apos;+RIGHT(LEFT(RIGHT(tdc_tsw__Attachments_Ids__c,LEN(tdc_tsw__Attachments_Ids__c)-FIND(&apos;,&apos;,tdc_tsw__Attachments_Ids__c,FIND(&apos;,&apos;,tdc_tsw__Attachments_Ids__c,FIND(&apos;,&apos;,tdc_tsw__Attachments_Ids__c,FIND(&apos;,&apos;,tdc_tsw__Attachments_Ids__c)+1)+1)+1)), 31),12),&apos;&apos;))&amp;&quot; &quot;&amp; 
+
+IF(VALUE(RIGHT(tdc_tsw__Attachments_Ids__c,(LEN(tdc_tsw__Attachments_Ids__c)-(LEN(tdc_tsw__Attachments_Ids__c)-1))))&gt;5, 
+HYPERLINK(&apos;/servlet/servlet.FileDownload?file=&apos;+LEFT(RIGHT(tdc_tsw__Attachments_Ids__c,32),18),IMAGE(&apos;/resource/tdc_tsw__Lightning_Resource/icons/doctype/&apos;+LEFT(RIGHT(tdc_tsw__Attachments_Ids__c, 13),12),&apos;&apos;)),&quot;&quot;),&quot;&quot;),&quot;&quot;),&quot;&quot;),&quot;&quot;))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Attached Files</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

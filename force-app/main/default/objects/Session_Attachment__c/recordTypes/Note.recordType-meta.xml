@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Note</fullName>
+    <active>true</active>
+    <description>Record Type denotes session notes uploaded by Mentor</description>
+    <label>Note</label>
+    <picklistValues>
+        <picklist>Attachment_Type__c</picklist>
+        <values>
+            <fullName>Assessment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Note</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>File_Type__c</picklist>
+        <values>
+            <fullName>FILE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IMAGE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PDF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TEXT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VIDEO</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

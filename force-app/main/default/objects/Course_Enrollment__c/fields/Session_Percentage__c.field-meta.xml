@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Session_Percentage__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(RecordType.DeveloperName == &apos;Mentor&apos;, IF(Total_Sessions_Completed__c &gt; 0 &amp;&amp; Total_Sessions__c &gt; 0, Total_Sessions_Completed__c/Total_Sessions__c, 0),  IF(Total_Sessions_Completed_By_Student__c &gt; 0 &amp;&amp; Total_Session_of_Students__c&gt; 0, Total_Sessions_Completed_By_Student__c/Total_Session_of_Students__c, 0))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Session Percentage</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

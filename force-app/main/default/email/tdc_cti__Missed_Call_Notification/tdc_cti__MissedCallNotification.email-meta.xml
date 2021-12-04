@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>When Missed call comes to the org , then this template is used</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>MissedCallNotification</name>
+    <style>none</style>
+    <subject>CTI Missed Call Alert:  {!Task.Who}{!Task.What} || {!Task.tdc_cti__Call_From__c}</subject>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

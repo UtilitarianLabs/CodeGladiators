@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Course Enrolled</name>
+    <style>none</style>
+    <subject>Successfully Enrolled For Course</subject>
+    <textOnly>&lt;html&gt;
+&lt;body&gt;
+Dear &lt;b&gt;{!Contact.FirstName} {!Contact.LastName}&lt;/b&gt;,&lt;br/&gt;&lt;br/&gt;
+You have successfully registered for &lt;b&gt;{!Course.Name}&lt;/b&gt; course. &lt;br/&gt;We wish you best of luck for your upcoming sessions related to course.
+&lt;/body&gt;
+&lt;/html&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

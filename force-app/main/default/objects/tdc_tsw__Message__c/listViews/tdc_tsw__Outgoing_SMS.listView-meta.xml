@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tdc_tsw__Outgoing_SMS</fullName>
+    <columns>NAME</columns>
+    <columns>tdc_tsw__Created_Date__c</columns>
+    <columns>OWNER.FIRST_NAME</columns>
+    <columns>tdc_tsw__Related_Object_Id_URL__c</columns>
+    <columns>tdc_tsw__Message_Text_New__c</columns>
+    <columns>tdc_tsw__ToNumber__c</columns>
+    <columns>tdc_tsw__Sender_Number__c</columns>
+    <columns>tdc_tsw__Error_Code__c</columns>
+    <columns>tdc_tsw__Error_Message__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>NAME</field>
+        <operation>equals</operation>
+        <value>Outgoing</value>
+    </filters>
+    <label>Outgoing SMS</label>
+</ListView>

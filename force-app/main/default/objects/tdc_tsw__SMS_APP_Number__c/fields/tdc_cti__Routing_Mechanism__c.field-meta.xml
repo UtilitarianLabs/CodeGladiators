@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tdc_cti__Routing_Mechanism__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Control the routing mechanism of the call within a queue.</description>
+    <externalId>false</externalId>
+    <label>Queue Routing Mechanism</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Simultaneous Ring</fullName>
+                <default>true</default>
+                <label>Simultaneous Ring</label>
+            </value>
+            <value>
+                <fullName>Round Robin</fullName>
+                <default>false</default>
+                <label>Round Robin</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

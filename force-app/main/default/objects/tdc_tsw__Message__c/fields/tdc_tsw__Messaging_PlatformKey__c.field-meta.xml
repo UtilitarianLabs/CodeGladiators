@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tdc_tsw__Messaging_PlatformKey__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This Field is Used to save toNumber key and used in digital engagement</description>
+    <externalId>false</externalId>
+    <label>Messaging Platform Key</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Phone</type>
+</CustomField>

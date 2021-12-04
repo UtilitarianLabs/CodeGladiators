@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tdc_cti__Total_Durationn__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Keeps track of the latest in and out time for a status and then calculate the difference between them</description>
+    <externalId>false</externalId>
+    <formula>( tdc_cti__Out_Time__c - tdc_cti__Diff__c )*24*60</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Latest Duration</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

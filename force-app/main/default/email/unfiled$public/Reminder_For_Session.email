@@ -1,0 +1,5 @@
+<html>
+<body>
+Dear <b>{!Contact.Name}</b>,<br/><br/>
+A session is Rescheduled which starts on <b>{!Session.Date}</b> at <b>{!Session.StartTime}</b> and the agenda will be <b> {!Session.Agenda}</b>.Be available for the session.</body>
+</html>

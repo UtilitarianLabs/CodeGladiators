@@ -1,0 +1,7 @@
+<html>
+<body>
+Dear <b>{!Contact.Name}</b>,<br/><br/>
+A session is scheduled in the next upcoming month on <b>{!Session.agenda}</b> which starts at <b>{!Session.PlannedDate}</b>. Be prepared for the session.<br/><br/>
+Best Wishes<br/>
+Utilitarian Labs</body>
+</html>

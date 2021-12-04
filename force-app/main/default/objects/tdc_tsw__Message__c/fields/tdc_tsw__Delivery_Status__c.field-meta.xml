@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tdc_tsw__Delivery_Status__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This field is used to get the delivery status of the outgoing SMS.
+Updated by Disha to add WhatsApp read receipt. for WhatsApp, the delivery status is Sent, Delivered, Read.</description>
+    <externalId>false</externalId>
+    <formula>IF(AND(tdc_tsw__Delivered__c , tdc_tsw__Read__c),&quot;Read&quot;, IF(tdc_tsw__Delivered__c , &quot;Delivered&quot;,If(ISBLANK(tdc_tsw__Error_Code__c), &quot;Sent&quot;, &quot;Undelivered&quot;)))</formula>
+    <label>Delivery Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

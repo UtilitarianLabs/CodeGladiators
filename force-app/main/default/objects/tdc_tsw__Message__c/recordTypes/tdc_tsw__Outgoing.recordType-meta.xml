@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tdc_tsw__Outgoing</fullName>
+    <active>true</active>
+    <label>Outgoing</label>
+    <picklistValues>
+        <picklist>tdc_tsw__Channel__c</picklist>
+        <values>
+            <fullName>Facebook</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MMS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SMS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WhatsApp</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>tdc_tsw__Related_Incoming_Owner__c</picklist>
+        <values>
+            <fullName>Outgoing Owner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Parent Record Owner</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

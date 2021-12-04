@@ -1,0 +1,6 @@
+Dear {!Contact.Name},
+I hope you are well. Please see invoice attached {!Invoice__c.Name}.
+
+Please don’t hesitate to get in touch if you have any questions, or would like to clarify anything.
+
+Best regards,

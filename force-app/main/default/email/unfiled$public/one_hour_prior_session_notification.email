@@ -1,0 +1,7 @@
+<html>
+<body>
+Dear <b>{!Contact.Name}</b>,<br/><br/>
+A session is going to commence in the upcoming hour on <b>{!Session.Agenda}</b> which starts at <b>{!Session.StartTime}</b>. Be available for the session.<br/><br/>
+Best Wishes<br/>
+Utilitarian Labs</body>
+</html>

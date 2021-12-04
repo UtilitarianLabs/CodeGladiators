@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Use_Response_Mocker__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicates if the response to this request needs to be mocked. Mock responses mimic the third party response.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates if the response to this request needs to be mocked</inlineHelpText>
+    <label>Use Response Mocker</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

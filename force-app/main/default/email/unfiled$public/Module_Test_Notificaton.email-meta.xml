@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Module Test Notificaton</name>
+    <style>none</style>
+    <subject>Module Test Details</subject>
+    <textOnly>Dear {!Contact.Name},
+
+Mentor has created module test {!Test.name}, please do attempt the test by clicking here.
+
+Best Wishes
+Utilitarian Labs</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

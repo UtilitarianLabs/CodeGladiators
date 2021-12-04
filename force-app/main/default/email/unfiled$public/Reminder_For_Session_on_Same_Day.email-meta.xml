@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Reminder For Session on Same Day</name>
+    <style>none</style>
+    <subject>Reminder for upcoming Session</subject>
+    <textOnly>Dear {!Contact.Name},
+
+A session is going to commence in the upcoming hours on {!Session.Agenda} which starts at {!Session.StartTime}. Be available for the session.
+
+Best Wishes
+Utilitarian Labs</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

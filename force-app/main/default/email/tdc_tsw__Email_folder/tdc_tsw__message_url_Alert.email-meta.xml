@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Used to Send Url click through alert to Owner</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>message url Alert</name>
+    <style>none</style>
+    <subject>SMS Clickthrough Alert</subject>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

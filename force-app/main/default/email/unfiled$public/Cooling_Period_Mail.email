@@ -1,0 +1,11 @@
+<html>
+<body>
+Dear <b>{!Contact.Name}</b>,<br/><br/>
+You can enroll for the following course until the sessions related to the course commences.<br/>
+<br/>
+1. {!Course1.Name} <br/>
+2. {!Course2.Name}<br/><br/>
+Best Wishes<br/>
+From Utilitarian Labs
+</body>
+</html>

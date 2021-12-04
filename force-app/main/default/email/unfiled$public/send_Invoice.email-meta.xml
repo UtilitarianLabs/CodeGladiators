@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>send Invoice</name>
+    <style>none</style>
+    <subject>Invoice details</subject>
+    <textOnly>Dear {!Contact.Name},
+
+I hope you are well. Please see invoice attached {!Invoice__c.Name}.
+
+Please don’t hesitate to get in touch if you have any questions, or would like to clarify anything.
+
+Best regards,</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

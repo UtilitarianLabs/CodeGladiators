@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Session in Upcoming Month</name>
+    <style>none</style>
+    <subject>This is a reminder mail for the batch scheduled in Next Month</subject>
+    <textOnly>Dear {!Contact.Name},
+
+A session is scheduled in the next upcoming month on {!Session.agenda} which starts at {!Session.PlannedDate}. Be prepared for the session.
+
+Best Wishes
+Utilitarian Labs</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

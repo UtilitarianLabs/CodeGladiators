@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tdc_tsw__Supported_Action_Types__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This field is used to determine the type of Messages supported by the specific number, For example: if this field is null , the number will have SMS and MMS, and respective values like whatsapp, MMS, SMS as per the number&apos;s capability.</description>
+    <externalId>false</externalId>
+    <label>Supported Action Types</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tdc_cti__VoiceDrop_Text__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This field is used to store the text type voicemail message.</description>
+    <externalId>false</externalId>
+    <label>VoiceDrop Text</label>
+    <length>32768</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

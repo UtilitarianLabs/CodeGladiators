@@ -1,0 +1,6 @@
+<html>
+<body>
+Dear <b>{!Contact.FirstName} {!Contact.LastName}</b>,<br/><br/>
+We have received the payment of Rs. {!Amount}.<br/><br/>
+Utilitarian Labs</body>
+</html>

@@ -1,0 +1,8 @@
+<html>
+<body>
+Dear <b>{!Contact.Name}</b>,<br/><br/>
+Mentor has created module test <b>{!Test.name}</b>, please do attempt the test by clicking <a href="https://student-program.netlify.app/testdetails/questions">here</a>.<br/><br/>
+Best Wishes<br/>
+Utilitarian Labs
+</body>
+</html>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>For mentee</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Welcome Email</name>
+    <style>none</style>
+    <subject>Welcome mail</subject>
+    <textOnly>Dear {!Contact.FirstName} {!Contact.LastName},
+
+We welcome you to this platform which will help you grow your technical skills.
+
+Best Wishes
+Utilitarian Labs</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

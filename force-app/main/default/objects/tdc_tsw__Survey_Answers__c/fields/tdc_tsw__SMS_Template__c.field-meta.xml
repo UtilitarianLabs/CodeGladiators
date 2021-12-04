@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tdc_tsw__SMS_Template__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>SMS Template</label>
+    <referenceTo>tdc_tsw__Message_Template__c</referenceTo>
+    <relationshipLabel>Survey Answers (SMS Template)</relationshipLabel>
+    <relationshipName>Survey_Answers1</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

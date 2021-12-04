@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Asynchronous_Operation__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicates if this API call is a long running operation. If set to true, the integration platform will execute the API call asynchronously.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates if this API call is a long running operation. If set to true, the integration platform will execute the API call asynchronously.</inlineHelpText>
+    <label>Asynchronous Operation</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

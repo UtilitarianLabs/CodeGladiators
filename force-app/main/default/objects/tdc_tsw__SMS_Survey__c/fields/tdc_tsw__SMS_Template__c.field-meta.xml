@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tdc_tsw__SMS_Template__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>First Question</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>tdc_tsw__Message_Template__c.tdc_tsw__SMS_Survey__c</field>
+            <operation>notEqual</operation>
+            <value></value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>tdc_tsw__Message_Template__c</referenceTo>
+    <relationshipLabel>SMS Survey</relationshipLabel>
+    <relationshipName>SMS_Survey</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

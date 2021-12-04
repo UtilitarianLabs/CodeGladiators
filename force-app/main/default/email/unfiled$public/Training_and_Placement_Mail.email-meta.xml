@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Regarding Training and Placement of your Engineering Graduates</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Training and Placement Mail</name>
+    <style>none</style>
+    <subject>Regarding Training and Placement of your Engineering Graduates</subject>
+    <textOnly>Hello {!Contact.Name},
+
+We are writing you on behalf of Code Gladiator which is a training and placement arm of salesforce led software development company UTILITARIAN Labs Pvt Ltd based in Bengaluru.
+
+On Code Gladiators we bring together mentors from various industries to train fresh engineering grads on market driven technologies &amp; provide them interview opportunities in various companies.
+
+To equip students with best of technical knowledge we have screened mentors from esteemed organizations and successful start-ups like Microsoft, Accenture, Amazon, etc. Our tech training exposes students to various tools, assignments and hands on live projects. Since we have freelance trainers who are still working with organizations, students receive most updated domain skills from these mentors. During their training students are encouraged to build their profile on Github, stack flow etc. All these combined increases chances of student’s employability to manifold.
+
+Our training programs focus on the holistic development of students and hence we also train students on attitudinal and behavioral aspects which helps them not only clear HR part of their interview but also helps them in their long-term corporate career. For this training, we have trainers from acclaimed institutions like IIM’s. Profile and other details can be checked from attached PPT.
+
+On the successful completion of the training, students are given two three interview opportunities in various companies through our own network. Our training programmes makes student’s so competitive that we believe two three opportunities would suffice them to fetch a job. Our placement support team assist students in their job prospects until they get one.
+
+Our longer association will help your college increase employability of your student’s. We believe in building relations and along with your management we can work collectively and make your college most competitive in terms of placement in NCR.
+
+Chandan Kumar
+Operations Head,
+Code Gladiators
++91-9910-770-310
++91-8178967083
++91-9654358570(WhatsApp)</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

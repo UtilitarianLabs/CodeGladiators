@@ -1,0 +1,16 @@
+<html>
+<body>
+Dear <b>{!Contact.Name} </b>,<br/><br/>
+You have successfully registered for <b>{!Course.Name}</b> course. <br/>We wish you best of luck for your upcoming sessions related to course. Please do will the enlisted details <br/><br/>
+1. <b>Start Plan Date</b> <br/>
+2. <b>End Plan Date</b> <br/>
+3. <b>Course Fees</b> <br/>
+4. <b> Number of Students you want to mentor in a batch i.e. Student to mentor ratio</b> <br/>
+<br/>
+and in case you want any session to be self-paced please do upload the link of YouTube video which will be helpful to mentees for the respective session.
+<br/><br/>
+Best Wishes<br/>
+Utilitarian Labs
+
+</body>
+</html>

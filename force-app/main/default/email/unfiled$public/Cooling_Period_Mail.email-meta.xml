@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Cooling Period Mail</name>
+    <style>none</style>
+    <subject>Please Enroll for the enlisted course</subject>
+    <textOnly>Dear {!Contact.Name},
+
+You can enroll for the following course until the sessions related to the course commences.
+
+1. {!Course1.Name}
+2. {!Course2.Name}
+
+Best Wishes
+From Utilitarian Labs</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

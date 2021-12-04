@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Additional_Header_Parameters__c</fullName>
+    <description>The key value pairs to be passed in the HTTP Request Header. Content type is passed in by default, based on the HTTP_Content_Type field. If there are other parameters, then they need to go here, as JSON key/value pairs.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Key value pairs to be passed in the HTTP Request Header</inlineHelpText>
+    <label>Additional Header Parameters</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

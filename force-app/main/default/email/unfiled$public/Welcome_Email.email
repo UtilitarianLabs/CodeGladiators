@@ -1,0 +1,8 @@
+<html>
+<body>
+Dear <b>{!Contact.FirstName} {!Contact.LastName}</b>,<br/><br/>
+We welcome you to this platform which will help you grow your technical skills.<br/><br/>
+Best Wishes<br/>
+Utilitarian Labs
+</body>
+</html>

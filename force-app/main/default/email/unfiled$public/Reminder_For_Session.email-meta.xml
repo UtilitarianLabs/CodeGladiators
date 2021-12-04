@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>mail will be sent prior one day to, on whicj session is scheduled</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Reminder For Rescheduled Session</name>
+    <style>none</style>
+    <subject>Reminder for Rescheduled Session</subject>
+    <textOnly>Dear {!Contact.Name},
+
+A session is Rescheduled which starts on {!Session.Date} at {!Session.StartTime} and the agenda will be  {!Session.Agenda}.Be available for the session.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

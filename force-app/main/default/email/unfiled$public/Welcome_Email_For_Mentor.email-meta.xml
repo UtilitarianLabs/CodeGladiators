@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>For Mentor</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Welcome Email For Mentor</name>
+    <style>none</style>
+    <subject>Welcome mail</subject>
+    <textOnly>Dear {!Contact.FirstName} {!Contact.LastName},
+
+We welcome you to this platform, I would like to thank you for dedicating your valuable time and energy into the mentoring program, to help increase preparedness, confidence, and knowledge of Student&apos;s future career.
+
+Please Click this link to login and view courses and enroll under them.
+
+Best Wishes
+Utilitarian Labs</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

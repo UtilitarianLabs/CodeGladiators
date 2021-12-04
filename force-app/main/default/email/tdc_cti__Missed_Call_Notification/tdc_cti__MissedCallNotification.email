@@ -1,0 +1,34 @@
+Hello {!User.Name},
+<br></br><br></br>
+Please find missed call details given below:
+<br></br><br></br>
+<table border="0">
+   <tr>
+        <td> Customer:</td>
+        <td> <a href= "{!CustomerLink}">{!Task.Who}{!Task.What}</a> </td>
+   </tr>
+   <tr>
+        <td> Number: </td>
+        <td> {!Task.tdc_cti__Call_From__c}</td>
+   </tr>
+   <tr>
+        <td> Date/Time: </td>
+        <td>{!Task.CreatedDate}</td>
+   </tr>
+  <tr>
+        <td> Link To Call: </td>
+        <td><a href= "{!CallLink}">{!Task.Subject}</a></td>
+  </tr>
+</table>
+ <br></br>
+If the caller left a voicemail, please find it attached under call record in Salesforce.
+<br></br><br></br>
+<table border="0">
+   </tr>
+     <tr>
+        <td>Best Regards</td>
+   </tr>
+   <tr>
+        <td> 360 CTI</td>
+   </tr>
+</table>

@@ -1,0 +1,10 @@
+<html>
+<body>
+Dear Mentee <b>{!Contact.Name} </b>,<br/><br/>
+A mentor has been assigned to you as per the Enrolled Course <b>{!course.Name}</b>.<br/> Details of mentor are <br/><br/>
+<b>Mentor Name</b> : {!Mentor.Name}<br/>
+<b>Mentor Email</b> : {!Mentor.Email}<br/><br/>
+Best Wishes<br/>
+Utilitarian Labs
+</body>
+</html>

@@ -1,0 +1,6 @@
+<html>
+<body>
+Dear <b>{!Contact.FirstName} {!Contact.LastName}</b>,<br/><br/>
+You have successfully registered for <b>{!Course.Name}</b> course. <br/>We wish you best of luck for your upcoming sessions related to course.
+</body>
+</html>

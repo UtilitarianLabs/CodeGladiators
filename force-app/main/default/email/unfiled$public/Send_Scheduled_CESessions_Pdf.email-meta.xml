@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to mentees with mentors name and email and also attached pdf of scheduled sessions</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Send Scheduled CESessions Pdf</name>
+    <style>none</style>
+    <subject>Course Session Scheduled Pdf</subject>
+    <textOnly>Dear {!Contact.Name} ,
+
+Mentor has been assigned to you for the course {!Course.name} you have enrolled for, Mentor name and email is enlisted below
+
+Mentor Name : {!Mentor.Name}
+Mentor email: {!Mentor.Email}
+
+Please do find the attached file for Course Sessions, scheduled by mentor.
+
+Best Wishes
+Utilitarian Labs</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

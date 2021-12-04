@@ -1,0 +1,11 @@
+<html>
+<body>
+Dear <b>{!Contact.Name} </b>,<br/><br/>
+Please find the attached file, enlisting Module's list and Session's list scheduled by you . For <b>{!Course.Name}</b> course. <br/>
+<br/><br/>
+
+Best Wishes<br/>
+Utilitarian Labs
+
+</body>
+</html>

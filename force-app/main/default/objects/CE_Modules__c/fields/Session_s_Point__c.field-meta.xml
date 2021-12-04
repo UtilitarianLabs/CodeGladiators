@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Session_s_Point__c</fullName>
+    <externalId>false</externalId>
+    <formula>If( Course_Enrollment__r.Applied_by__c == &quot;Mentor&quot;,If(Total_Sessions_Completed__c &gt; 0,100 *  Total_Sessions_Completed__c,0) ,0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Session&apos;s Point</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

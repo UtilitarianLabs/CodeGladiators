@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>mentor_student_ratio</fullName>
+    <active>true</active>
+    <description>if enrolled candidate is a mentor than he should fill no of students which he wants to teach before saving</description>
+    <errorConditionFormula>Applied_by__c  = &apos;Mentor&apos;  &amp;&amp;  Students_to_Be_Alloted__c  = Null</errorConditionFormula>
+    <errorMessage>Please enter Number of students to be Mentored</errorMessage>
+</ValidationRule>

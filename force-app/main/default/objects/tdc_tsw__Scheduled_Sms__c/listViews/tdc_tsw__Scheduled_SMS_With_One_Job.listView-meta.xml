@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tdc_tsw__Scheduled_SMS_With_One_Job</fullName>
+    <columns>NAME</columns>
+    <columns>tdc_tsw__Scheduled_Time__c</columns>
+    <columns>tdc_tsw__isSent__c</columns>
+    <columns>tdc_tsw__Message_Text__c</columns>
+    <columns>tdc_tsw__SMS_Template__c</columns>
+    <columns>tdc_tsw__Last_SMS_Sent_Date__c</columns>
+    <columns>tdc_tsw__Next_SMS_Send_Date__c</columns>
+    <columns>tdc_tsw__Contact__c</columns>
+    <columns>tdc_tsw__Lead__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>tdc_tsw__Scheduled_JobId__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>tdc_tsw__Next_SMS_Send_Date__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>tdc_tsw__isSent__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>Scheduled SMS With One Job</label>
+</ListView>
